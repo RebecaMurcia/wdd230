@@ -23,6 +23,8 @@ img {
 nav{
     background-color:antiquewhite;
     margin: 100px;
+}
+a {
+    display: block;
     
-
 }
