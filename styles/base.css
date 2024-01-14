@@ -1,0 +1,28 @@
+* {
+    
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+body {
+    font-size: 10pt;
+    
+}
+header {
+    background-color: rgb(117, 155, 81);
+    margin: 100px;
+    padding:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 150px;
+    height: auto;
+    padding: 20px;
+}
+nav{
+    background-color:antiquewhite;
+    margin: 100px;
+    
+
+}
