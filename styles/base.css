@@ -3,7 +3,6 @@
     box-sizing: border-box;
     font-family: Roboto, Arial, sans-serif;
 }
-
 header {
     background-color: rgb(117, 155, 81);
     padding:40px;
@@ -13,7 +12,7 @@ header {
     color:white
 }
 img {
-    width: 150px;
+    width: 200px;
     height: auto;
     padding: 20px;
 }
