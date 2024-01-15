@@ -3,34 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Rebeca Murcia">
+    <meta name="description" content="WDD Frontend Development Rebeca Murcia course assignmnet portal"> 
     <title>Rebeca Murcia - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 </head>
 <body>
     <header>
         <img src="images/profile.jpg" alt="Rebeca Murcia">
         <h1>Rebeca Murcia</h1>
     </header>
-    <div>
-        <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
-        <li><a href="chamber/">Chamber</a></li>
-        <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
-        <li><a href="https://www.churchofjesuschrist.org/study/scriptures?lang=eng">Scripture</a></li>
-    </ul>
-    </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+        <a href="chamber/">Chamber</a>
+        <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng" target="_blank">Scripture</a>
+    </nav>
     <main>
-        <H2>WDD 230: Web Frontend Development</H2>
+        <h2>WDD 230: Web Frontend Development</h2>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul>
+                <li> <a href="https://rebecamurcia.github.io/wdd230/lesson01/holigrail.html">01: Holy Layout | JS Pen</a></li>
+                <li><a href="#">02: Media Query | Design</a></li>
+                <li>03:</li>
+                <li>04:</li>
+                <li>05:</li>
+                <li>06:</li>
+                <li>07:</li>
+                <li>08:</li>
+                <li>09:</li>
+                <li>10:</li>
+            </ul>
+        </section>
         <section class="card">
             <h3>Information</h3>
-            <p>Weather: <br>
-               Number of visits to the page: 
-            </p>
+            <p>Weather 🌤️</p>
+            <p>Number of visits to the page </p>
         </section>
     </main>
     <footer>
         <p>©2024  |  Rebeca Murcia  |  Vancouver,WA</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>

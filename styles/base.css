@@ -1,33 +1,71 @@
-* {
-    
+* {  
     box-sizing: border-box;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(52, 52, 92);
 }
 header {
-    background-color: rgb(117, 155, 81);
-    padding:40px;
+    background-color: rgb(52, 52, 92);
+    padding:30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color:white
+}
+h1{
+    color:white;
 }
 img {
     width: 200px;
     height: auto;
     padding: 20px;
 }
-div{
-    background-color: antiquewhite;
+nav {
+    display:grid;
+    justify-items: center;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 20px rgb(187, 180, 177);
 }
-ul {
-    list-style-type: none;
-
-}
-li a {
-    display: flex;
-    justify-content: center;
+nav a{
+    
+    font-size: 16px;
     text-decoration: none;
-    padding:10px 20px;
-    font-size:20px;
-    color:rgb(71, 84, 71);
+    padding: 10px;
 }
+h2{
+    color:rgb(52, 52, 92);display: flex;
+    justify-content: center;
+    border-bottom:solid 1px;
+    border-color: rgb(52, 52, 92);
+    padding: 10px; 
+    margin:20px;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-auto-rows: auto;
+    grid-gap:1rem;
+    margin: 20px 100px;
+    padding:20px;   
+    background-color:rgba(187, 175, 232, 0.231);
+    
+}
+.card h3, li, p{
+    display: grid;
+    justify-self: center;
+    list-style: none;
+    
+}
+footer{
+   
+    background-color: rgb(52, 52, 92);
+    position: relative;
+    padding: 0.75em;
+    border-radius: 5px;
+   text-align: center;    
+}
+footer p{
+    color: white;
+}
+
+
+
