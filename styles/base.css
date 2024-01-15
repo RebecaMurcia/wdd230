@@ -63,7 +63,7 @@ footer{
     border-radius: 5px;
    text-align: center;    
 }
-footer p{
+footer p, #year{
     color: white;
 }
 
