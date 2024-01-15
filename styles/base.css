@@ -3,28 +3,32 @@
     box-sizing: border-box;
     font-family: Roboto, Arial, sans-serif;
 }
-body {
-    font-size: 10pt;
-    
-}
+
 header {
     background-color: rgb(117, 155, 81);
-    margin: 100px;
     padding:40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color:white
 }
 img {
     width: 150px;
     height: auto;
     padding: 20px;
 }
-nav{
-    background-color:antiquewhite;
-    margin: 100px;
+div{
+    background-color: antiquewhite;
 }
-a {
-    display: block;
-    
+ul {
+    list-style-type: none;
+
+}
+li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding:10px 20px;
+    font-size:20px;
+    color:rgb(71, 84, 71);
 }
