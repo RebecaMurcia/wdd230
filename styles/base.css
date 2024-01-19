@@ -19,7 +19,7 @@ img {
     padding: 20px;
 }
 nav {
-    display:grid;
+    display:flex;
     align-items: center;
     justify-content: center;
     background-color: white;
