@@ -35,9 +35,7 @@ nav a:hover{
     border-bottom: solid;
     border-color:rgb(187, 175, 232);
 }
-li a{
-    display:inline;
-}
+
 h2{
     color:rgb(52, 52, 92);display: flex;
     justify-content: center;
