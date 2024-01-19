@@ -46,7 +46,7 @@ h2{
 }
 .card{
     display: grid;
-    grid-template-columns: 1, 1fr;
+    grid-template-columns: 1fr, 1fr;
     grid-auto-rows: auto;
     grid-gap:1rem;
     margin: 20px 100px;
