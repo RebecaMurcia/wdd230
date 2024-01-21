@@ -12,6 +12,9 @@ img{
     width: 20rem;
     height: auto;
 }
+h1{
+    text-align: center;
+}
 main{
     display: grid;
     grid-template-columns:1fr;
