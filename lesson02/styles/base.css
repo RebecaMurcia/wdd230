@@ -8,6 +8,10 @@ header, main, footer{
     padding:10px;
     background-color: rgb(200, 212, 233);
 }
+img{
+    width: 20rem;
+    height: auto;
+}
 main{
     display: grid;
     grid-template-columns:1fr;
