@@ -1,4 +1,7 @@
-body {
+:root {
+    font-family: 'Quicksand', sans-serif;
+}
+/*body {
     font-family:'Quicksand', sans-serif;
 }
 header, main, footer{
@@ -26,4 +29,4 @@ main{
 section{
     background-color: white;
     padding: 20px;
-}
+}*/
