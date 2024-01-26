@@ -1,15 +1,23 @@
-* {  
-    box-sizing: border-box;
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
     font-family: 'Poppins', sans-serif;
-    color:rgb(52, 52, 92);
+    line-height: 28px;
+    color: black;
+
 }
 header {
-    background-color: rgb(52, 52, 92);
-    padding:30px;
     display: flex;
-    align-items: center;
+    direction: row;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(52, 52, 92);
+    padding:30px; 
 }
+
 h1{
     color:white;
 }
@@ -18,38 +26,74 @@ img {
     height: auto;
     padding: 20px;
 }
-nav {
-        max-width: 900px;
-        margin:auto;
-        background-color: white;
-        padding: 10px;
-        box-shadow: 0 0 20px rgb(187, 180, 177);
+#hambuger-menu {
+    position: absolute;
+    top:0.25em;
+    right: 0.25em;
+    text-align: center;
+    width: 40px;
+    height: auto;
+    margin:auto;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(187, 180, 177);
 }
-nav a{
-    display:block;
-    font-size: 16px;
+#hamburger-menu ::before{
+    font-size: 2rem;
+    content: "☰";
+}
+#hamburger-menu .open ::before{
+    font-size: 1.5rem;
+    content: "X";
+}
+.nav-links{
+    display:flex;
+    direction: column;
+    list-style: none;
+    background-color:blue;
+    margin: 0;
+    padding:0;
+}
+.nav-links li{
+    display: none;
+}
+.nav-links li a{
+    display: block;
+    padding: 1.5rem;
     text-align: center;
     text-decoration: none;
-    padding: 10px;
+    color: aqua;
 }
-nav a:hover{
+.nav-links li a:hover{
+    background-color: rgb(53, 53, 114);
     color:rgb(187, 175, 232);
 }
+.open li{
+    display: block;
+    width: 100%;
+}
+.open li a{
+    display: block;
+}
+.nav-links .active{
+    color:yellow;
+}
 
-h2{
-    color:rgb(52, 52, 92);display: flex;
-    justify-content: center;
+main {
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    padding: 20px;
+    background-color: white;    
+}
+.title{
+    color:rgb(52, 52, 92);
     text-align: center;
     border-bottom:solid 1px;
     border-color: rgb(52, 52, 92);
-    padding: 10px; 
-    margin:20px;
+    /*padding: 10px; 
+    margin:20px;*/
 }
-main section{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-gap:1rem;
-}
+
 .card{
     background-color:rgba(187, 175, 232, 0.231);
     margin: 20px 90px;
