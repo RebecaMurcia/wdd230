@@ -83,7 +83,7 @@ main {
     flex-direction: column;
     margin:0 auto;
     padding: 20px;
-    background-color: white;    
+    background-color:rgba(187, 175, 232, 0.231); 
 }
 .title{
     color:rgb(52, 52, 92);
@@ -94,32 +94,54 @@ main {
     margin:20px;*/
 }
 
-.card{
-    background-color:rgba(187, 175, 232, 0.231);
-    margin: 20px 90px;
-    padding:20px;  
-    }
-    /*display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-    grid-auto-rows: auto;
+.card-content{
+    display: grid;
+    grid-template-columns: 1fr;
     grid-gap:1rem;
     
-    
+    margin: 20px 90px;
+    padding:20px;  
+    } 
+.card{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
 }
-.card h3, li, p{
-    display: grid;
-    justify-self: center;
-    list-style: none;*/
-    
+.card-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card-content{
+    padding: 20px;
+}
+.lessons{
+    list-style-type: none;
+    padding: 0;
+}
+.lessons li{
+    padding: 5px;
+}
+.lessons li a{
+    font-size: 0.8em;
+}
+/*
+.map iframe{
+    width:100%;
+    height: 450px;
+}   */
 
 footer{
-   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
     background-color: rgb(52, 52, 92);
-    position: relative;
     padding: 0.75em;
     border-radius: 5px;
-   text-align: center;    
+    
 }
 footer p, #year{
     color: white;
