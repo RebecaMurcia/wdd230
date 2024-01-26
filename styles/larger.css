@@ -1,86 +1,31 @@
-@media screen and (min-width: 480px) {
-    * {  
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-        color:rgb(52, 52, 92);
+@media screen and (min-width: 760px) {
+    #hamburger-menu{
+        display: none;
     }
-    header {
-        background-color: rgb(52, 52, 92);
-        padding:30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .nav-links{
+        flex-direction: row;
     }
-    h1{
-        color:white;
+    .nav-links li{
+        display: block;
+        flex: 1 1 100%;
     }
-    img {
-        width: 200px;
-        height: auto;
-        padding: 20px;
+    .title{
+        font-size: 1.75em;
     }
-    nav {
-    
-        display: flex;
-        justify-content: space-evenly;
-        background-color: white;
-        padding: 10px;
-        box-shadow: 0 0 20px rgb(187, 180, 177);
-    }
-    nav a{
-        font-size: 16px;
-        text-decoration: none;
-        padding: 10px;
-    }
-    nav a:hover{
-        border-bottom: solid;
-        border-color:rgb(187, 175, 232);
-    }
-    
-    h2{
-        color:rgb(52, 52, 92);display: flex;
-        justify-content: center;
-        border-bottom:solid 1px;
-        border-color: rgb(52, 52, 92);
-        padding: 10px; 
-        margin:20px;
-    }
-   /* main{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap:1rem;
-    }*/
-    /*.card {
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap:1rem;
-        background-color:rgba(187, 175, 232, 0.231);
-    }*/
-    main section {
+    .card-content{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-gap:1rem;
-        margin: 20px 100px;
-        padding:20px;   
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    /*.card h3, li, p{
-        display: grid;
-        justify-self: center;
-        list-style: none;
-        
-    }*/
-    footer{
-       
-        background-color: rgb(52, 52, 92);
-        position: relative;
-        padding: 0.75em;
-        border-radius: 5px;
-       text-align: center;    
+    .card-content section:nth-child(1){
+        grid-column: span 2;
     }
-    footer p, #year{
-        color: white;
+    .map{
+        grid-column: span 3;
     }
-        
-    
+    footer .info{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
+  
