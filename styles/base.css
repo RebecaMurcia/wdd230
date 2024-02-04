@@ -26,7 +26,7 @@ img {
     height: 200px;
     padding: 20px;
 }
-#hambuger-menu {
+/*#hambuger-menu {
     position: absolute;
     top:0.25em;
     right: 0.25em;
@@ -78,7 +78,7 @@ img {
 .nav-links .active{
     color:yellow;
 }
-
+*/
 main {
     display: flex;
     flex-direction: column;
