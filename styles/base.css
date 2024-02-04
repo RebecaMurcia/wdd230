@@ -1,11 +1,9 @@
 html, body {
-   
     min-height: 100vh;
     background-color: white;
     font-family: 'Poppins', sans-serif;
     line-height: 28px;
-    color: black;
-
+    color: rgb(52, 52, 92);
 }
 header {
     display: flex;
