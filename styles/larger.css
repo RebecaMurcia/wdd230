@@ -1,11 +1,11 @@
-@media screen and (min-width: 760px) {
-    #hamburger-menu{
+@media (min-width: 37.5em) {
+    #menu{
         display: none;
     }
-    .nav-links{
+    .navigation{
         flex-direction: row;
     }
-    .nav-links li{
+    .navigation a{
         display: block;
         flex: 1 1 100%;
     }
