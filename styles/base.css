@@ -37,7 +37,7 @@ nav {
     background-color: white;
     position:absolute;
     top:1rem;
-    left:1rem;
+    right:1rem;
 }
 #menu::before{
     content:"☰";
