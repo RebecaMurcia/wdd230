@@ -23,9 +23,6 @@
     .card-content section:nth-child(1){
         grid-column: span 2;
     }
-    .map{
-        grid-column: span 3;
-    }
     footer .info{
         display:flex;
         flex-direction: row;
