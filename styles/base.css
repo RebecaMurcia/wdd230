@@ -73,59 +73,6 @@ nav {
     content: "📍";
 }
 
-/*#hambuger-menu {
-    position: absolute;
-    top:0.25em;
-    right: 0.25em;
-    text-align: center;
-    width: 40px;
-    height: auto;
-    margin:auto;
-    color:rgb(52, 52, 92);
-    background-color: white;
-    box-shadow: 0 0 20px rgb(187, 180, 177);
-}
-#hamburger-menu ::before{
-    font-size: 2rem;
-    content: "☰";
-}
-#hamburger-menu .open ::before{
-    font-size: 1.5rem;
-    content: "X";
-}
-.nav-links{
-    display:flex;
-    flex-direction: column;
-    list-style: none;
-    background-color:blue;
-    margin: 0;
-    padding:0;
-}
-.nav-links li{
-    display: none;
-}
-.nav-links li a{
-    display: block;
-    padding: 1.5rem;
-    text-align: center;
-    text-decoration: none;
-    color: aqua;
-}
-.nav-links li a:hover{
-    background-color: rgb(53, 53, 114);
-    color:rgb(187, 175, 232);
-}
-.open li{
-    display: block;
-    width: 100%;
-}
-.open li a{
-    display: block;
-}
-.nav-links .active{
-    color:yellow;
-}
-*/
 main {
     display: flex;
     flex-direction: column;
