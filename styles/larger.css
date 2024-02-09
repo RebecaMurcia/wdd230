@@ -16,18 +16,28 @@
     .title{
         font-size: 1.75em;
     }
-    .card-content{
+    .title:hover {
+      background-color: red;
+    }
+    .container{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
-    .card-content section:nth-child(1){
+    /* .container section:nth-child(1){
         grid-column: span 2;
-    }
+    } */
     footer .info{
         display:flex;
         flex-direction: row;
         justify-content: space-between;
     }
+/* .map {
+  margin-left: 25%;
+} */
+.map iframe{
+  width:100%;
+
+}
     
 }
   
