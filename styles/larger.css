@@ -2,9 +2,13 @@
   a#menu{
     display: none;
   }
- ul .navigation a {
+  .navigation{
     display: flex;
     flex-direction: row;
+  }
+ .navigation a {
+    display: flex;
+    /* flex-direction: row; */
   }
   /* .navigation li{
     display: block;
