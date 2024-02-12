@@ -1,0 +1,88 @@
+:root{
+    --primary-color:#093042;
+    --second-color:#B6DAE7;
+    --third-color:#4C722F;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+.button{
+    padding:20px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(187, 180, 177);
+    color: var(--primary-color);
+    font-size:18px;
+    
+    border:none;
+}
+.logo img{ 
+    order: 1;
+    width: 8em;
+    height: auto;
+    margin-left: 10px;
+}
+nav {
+    max-width: 700px;
+    margin:1rem auto;
+}
+#menu {
+    display:block;
+    font-size:2rem;
+    text-decoration: none;
+    background-color: white;
+    position:absolute;
+    top:1rem;
+    right:1rem;
+}
+#menu::before{
+    content:"☰";
+}
+#menu.open::before{
+    content:"☓";
+}
+.navigation{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+.navigation a{
+    display: none;
+    padding: 10px;
+    text-align:center;
+}
+.navigation a:hover, .navigation a:active{
+    background-color:var(--second-color);
+    color:var(--primary-color);
+}
+.open a{
+    display: block;
+}
+.hero-section{
+    display: grid;
+    align-items: center;
+    justify-content:space-between;
+    gap:40px;
+    
+}
+.hero-section img{
+    width:100%;
+  height: min-content;
+}
+div .hero-text{
+    background-color: rgba(255, 255, 255, 0.574);
+    margin: 40px;
+}
+.hero-text{
+    position: absolute;
+    padding:30px;
+}
+.hero-text p {
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+}
+

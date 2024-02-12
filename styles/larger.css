@@ -8,16 +8,9 @@
   }
  .navigation a {
     display: flex;
-    /* flex-direction: row; */
+
   }
-  /* .navigation li{
-    display: block;
-    flex: 1 1 100%;
-  } */
-  /* .navigation a{
-    text-align: center;
-  } */
-  
+
     .title{
         font-size: 1.75em;
     }
@@ -25,13 +18,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    /* .container section:nth-child(1){
-        grid-column: span 2;
-    } */
+  
     footer .info{
         display:flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content:center;
+  
     }
 .map iframe{
   width:100%;

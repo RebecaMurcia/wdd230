@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Rebeca Murcia">
     <meta name="description" content="Vancouver Front Chamber of Commerce home page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <title>Vancouver Front Chamber of Commerce</title>
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
     <header>
-        <img src="images/chamber-logo.png" alt="Vancouver Front Chamber of Commerce Logo">
+        <a id="menu" href="#"></a>
         <nav>
         <ul class="navigation">
             <li><a href="#">Home</a></li>
@@ -19,10 +25,20 @@
             <li><a href="#">Join</a></li>
         </ul>
         </nav>
-        <div class="hero-image">
-            <img src="images/water-front.jpg" alt="Water Front View">
+        <div class="logo">
+            <img src="images/chamber-logo.png" alt="Vancouver Front Chamber of Commerce Logo">
         </div>
     </header>
+    <main>
+        <div class="hero-section">
+            <img src="images/water-front.jpg" alt="Water Front View">
+            <div class="hero-text">
+                <h1>Inspire Change</h1>
+                <p>You can do great things in the community</p>
+                <button class="button">Become a Member</button>
+            </div>
+        </div>
+    </main>
     <section class="icons">
         <div class="resources">
             <img src="images/resources-icon.png" alt="resources icon in navy blue">
@@ -50,7 +66,7 @@
         
     </section>
     <footer>
-        <p><span id="year">© 2024</span> | Rebeca Murcia  |  Vancouver,WA</p>
+        <p><span id="year">© 2024</span> | Rebeca Murcia  | WDD230</p>
     </footer>
 </body>
 </html>
