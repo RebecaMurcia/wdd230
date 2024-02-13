@@ -1,7 +1,8 @@
 :root{
     --primary-color:#093042;
-    --second-color:#B6DAE7;
+    --second-color:#c9dae1;
     --third-color:#4C722F;
+    --fourth-color:rgba(230, 230, 230, 0.918);
 }
 *{
     margin: 0;
@@ -11,12 +12,13 @@
     font-family: 'Raleway', sans-serif;
 }
 .button{
+    margin:10px;
     padding:20px;
     background-color: white;
     box-shadow: 0 0 20px rgb(187, 180, 177);
     color: var(--primary-color);
     font-size:18px;
-    
+    border-radius: 6px;
     border:none;
 }
 .logo img{ 
@@ -25,18 +27,18 @@
     height: auto;
     margin-left: 10px;
 }
-nav {
+nav { 
     max-width: 700px;
     margin:1rem auto;
 }
 #menu {
     display:block;
     font-size:2rem;
-    text-decoration: none;
     background-color: white;
     position:absolute;
     top:1rem;
     right:1rem;
+    color: var(--primary-color);
 }
 #menu::before{
     content:"☰";
@@ -54,6 +56,7 @@ nav {
     display: none;
     padding: 10px;
     text-align:center;
+    color: var(--second-color);
 }
 .navigation a:hover, .navigation a:active{
     background-color:var(--second-color);
@@ -63,26 +66,109 @@ nav {
     display: block;
 }
 .hero-section{
-    display: grid;
+    display: flex;
+    flex-direction:row;
     align-items: center;
-    justify-content:space-between;
-    gap:40px;
-    
+    justify-content:center;
+    gap:40px;  
 }
 .hero-section img{
-    width:100%;
-  height: min-content;
+    width: 1600px;
+    height: 500px;
 }
 div .hero-text{
     background-color: rgba(255, 255, 255, 0.574);
-    margin: 40px;
+    position: absolute;
+    margin:10px;
+   
+    /* 
+    width:400px;  */ 
 }
 .hero-text{
-    position: absolute;
+    
     padding:30px;
 }
 .hero-text p {
-    padding: 10px 0 10px 0;
+    padding: 20px 0 20px;
     font-size: 18px;
 }
+.more{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--second-color);
+    height:35em;
+}
+img.icons {
+    display: flex; 
+    width: 6em;
+    height: auto;
+    padding: 20px;
+}
+section.more h3{
+    text-align: center;
+    color:var(--primary-color);
+}
+img.icons:hover{
+    width:9em;
+    height: auto;
+}
+.mission {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: var(--second-color);
+}
+.mission img{
+    width: 30em;
+    height:auto;
+    justify-content: center;
+}
+.statement h1, .statement p{
+    padding: 20px;
+   
+}
+.news{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:100px ;
+}
+.title h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px; 
+}
+section.news{
+    margin:20px;
+}
+.card{
+    width: 325px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(187, 180, 177);
+    border-radius: 6px;
+    margin: 20px;  
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 16px;
+    color: var(--third-color);
+    font-weight: 500;
+}
+footer{
+    background-color: var(--fourth-color);   
 
+}
