@@ -23,6 +23,17 @@ img {
     height: auto;
     padding: 10px;
 }
+.temple-name{
+    position:absolute;
+    margin:50px;
+    padding: 10px;
+    background-color:rgba(52, 52, 92, 0.505);
+    color:white;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+}
 nav {
     max-width: 700px;
     margin:1rem auto;
@@ -126,8 +137,6 @@ footer{
    align-items: center;
     background-color: rgb(52, 52, 92);
     padding: 0.75em;
-    border-radius: 5px;
-    
 }
 footer a{
     text-decoration: none;
