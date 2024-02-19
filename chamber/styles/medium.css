@@ -1,4 +1,14 @@
 @media screen and (min-width:768px){
+    a #menu{
+        display: none;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+    }
+    .navigation a {
+        display: flex;
+    }
     
 }
     
