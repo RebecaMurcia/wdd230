@@ -1,5 +1,5 @@
 @media screen and (min-width:768px){
-    a #menu{
+    a#menu{
         display: none;
     }
     .navigation{
@@ -9,6 +9,6 @@
     .navigation a {
         display: flex;
     }
-    
+
 }
     
