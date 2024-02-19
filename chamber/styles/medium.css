@@ -24,7 +24,7 @@
         flex-direction: row;
         justify-content:space-around;
         align-items: center;
-        height: 20em;
+        height: 15em;
     } 
     .mission{
         display: flex;

@@ -31,7 +31,12 @@
     </header>
     <main>
         <div class="hero-section">
-            <img src="images/water-front.webp" alt="Water Front View">
+            <picture>
+                <source srcset="images/waterfront-small.webp" media="(max-width: 500px)">
+                <source srcset="images/waterfront-medium.webp" media="(max-width:1000)">
+                <img src="images/waterfront-large.webp" alt="Vancouver Waterfront view from Columbia River" width="1500" height="750">
+            </picture>
+            
             <div class="hero-text">
                 <h1>Inspire Change</h1>
                 <p>You can do great things in the community</p>
@@ -39,10 +44,10 @@
             </div>
         </div>
     </main>
+    <div class="more-title">
+        <h1>Quick Links</h1>
+    </div>
     <section class="more">
-        <div class="more-title">
-            <h1>Quick Links</h1>
-        </div>
             <a href="#"><img class="icons" src="images/resources-icon.webp" alt="resources icon in navy blue">
             <h3>Resources</h3>
             </a>
