@@ -10,6 +10,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Raleway', sans-serif;
+    line-height:1.8em;
 }
 .button{
     margin:10px;
@@ -21,6 +22,7 @@
     border-radius: 6px;
     border:none;
 }
+
 .logo img{ 
     order: 1;
     width: 8em;
@@ -50,8 +52,8 @@ nav {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--primary-color);
-    color:white;
+    background-color: var(--primary-color); 
+    color:white; 
 }
 .navigation a{
     display: none;
@@ -81,9 +83,6 @@ div .hero-text{
     background-color: rgba(255, 255, 255, 0.574);
     position: absolute;
     margin:10px;
-   
-    /* 
-    width:400px;  */ 
 }
 .hero-text{
     
@@ -93,11 +92,13 @@ div .hero-text{
     padding: 20px 0 20px;
     font-size: 18px;
 }
+
 .more{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-color: var(--second-color);
     height:35em;
 }
@@ -118,7 +119,6 @@ img.icons:hover{
 .mission {
     display:flex;
     flex-direction: column;
-    flex-wrap: wrap;
     padding: 30px;
     border-bottom-style: solid;
     border-width: 1px;
@@ -131,6 +131,7 @@ img.icons:hover{
 }
 .statement h1, .statement p{
     padding: 20px;
+    flex-wrap: wrap;
    
 }
 .news{
@@ -171,5 +172,6 @@ section.news{
 }
 footer{
     background-color: var(--fourth-color);   
+    height: 8em;
 
 }

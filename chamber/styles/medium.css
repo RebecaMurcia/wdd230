@@ -1,14 +1,36 @@
 @media screen and (min-width:768px){
+    header{
+        display: flex;
+    }
     a#menu{
         display: none;
     }
     .navigation{
         display: flex;
         flex-direction: row;
+        background-color: white;
     }
-    .navigation a {
+    .navigation a{
         display: flex;
+        color:var(--primary-color);
     }
-
+    .navigation a:hover, .navigation a:active{
+        background-color:var(--second-color);
+        color:var(--primary-color);
+        font-weight:bold;
+    }
+    .more{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        height: 20em;
+    } 
+    .mission{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+   
 }
     
