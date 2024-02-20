@@ -19,7 +19,7 @@
     box-shadow: 0 0 20px rgb(187, 180, 177);
     color: var(--primary-color);
     font-size:18px;
-    border-radius: 6px;
+    border-radius: 5px;
     border:none;
 }
 
@@ -84,13 +84,17 @@ div .hero-text{
     position: absolute;
     margin:10px;
 }
-.hero-text{
-    
+.hero-text{  
     padding:30px;
 }
 .hero-text p {
     padding: 20px 0 20px;
     font-size: 18px;
+}
+.button:hover{
+    background-color:var(--primary-color);
+    color:white;
+    font-weight: bold;
 }
 
 .more-title h1{
@@ -160,7 +164,7 @@ section.news{
     width: 325px;
     overflow: hidden;
     box-shadow: 0 0 20px rgb(187, 180, 177);
-    border-radius: 6px;
+    border-radius: 5px;
     margin: 20px;  
 }
 .card img{
@@ -174,8 +178,14 @@ section.news{
     display: inline-block;
     padding: 8px 16px;
     margin-top: 16px;
-    color: var(--third-color);
+    color: var(--primary-color);
     font-weight: 500;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color:var(--second-color);
+    color:var(--primary-color);
+    font-weight: bold;
 }
 footer{
     background-color: var(--fourth-color);   
