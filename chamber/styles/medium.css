@@ -13,11 +13,13 @@
     .navigation a{
         display: flex;
         color:var(--primary-color);
+        padding: 3em;
     }
     .navigation a:hover, .navigation a:active{
-        background-color:var(--second-color);
-        color:var(--primary-color);
         font-weight:bold;
+        background-color: white;
+        border-bottom: 3px solid var(--second-color);
+        padding-bottom: 5px;
     }
     .more{
         display: flex;
@@ -30,6 +32,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+    .mission img{
+        width: 500px;
+        height: 333px;
     }
    
 }

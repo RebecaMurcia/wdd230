@@ -1,0 +1,42 @@
+@media screen and (min-width:992px){
+    header{
+        display: flex;
+    }
+    a#menu{
+        display: none;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+    }
+    .navigation a{
+        display: flex;
+        color:var(--primary-color);
+        padding: 3em;
+    }
+    .navigation li a:hover, .navigation li a:active{
+        font-weight:bold;
+        background-color: white;
+        border-bottom: 3px solid var(--second-color);
+        padding-bottom: 5px;
+    }
+    .more{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        height: 15em;
+    } 
+    .mission{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+   footer p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   }
+}
+    

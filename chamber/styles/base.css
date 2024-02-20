@@ -139,6 +139,9 @@ img.icons:hover{
     width: 30em;
     height:auto;
     justify-content: center;
+    padding: 20px;
+    width: 333px;
+    height: auto;
 }
 .statement h1, .statement p{
     padding: 20px;
@@ -174,6 +177,9 @@ section.news{
 .card-content{
     padding: 16px;
 }
+.card-content h2{
+    color:var(--third-color);
+}
 .card-content .btn{
     display: inline-block;
     padding: 8px 16px;
@@ -190,5 +196,17 @@ section.news{
 footer{
     background-color: var(--fourth-color);   
     height: 8em;
-
+}
+footer p{
+    margin-left: 40px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+}
+#lastModified{
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 10px;
 }
