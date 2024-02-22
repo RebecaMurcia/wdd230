@@ -6,7 +6,7 @@ const list = document.querySelector('#list');
 //event listener & function
 button.addEventListener('click',() => {
 
-if(input.value != '') {  }
+if(input.value != '') { 
     const li = document.createElement('li');
     const deleteButton = document.createElement('button');
 
@@ -20,6 +20,8 @@ if(input.value != '') {  }
     });
     input.focus ();
     input.value = '';
+ }
+   
 
 }); 
 
