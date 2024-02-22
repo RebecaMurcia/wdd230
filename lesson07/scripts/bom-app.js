@@ -13,7 +13,7 @@ chaptersArray.forEach(chapter => {
 button.addEventListener('click', () => {
 
     if (input.value != '') {
-        display(input.value);
+        displayList(input.value);
         chaptersArray.push(input.value);
         setChapterList();
         input.value = '';
@@ -47,8 +47,7 @@ function setChapterList() {
 function getChapterList() {
     return JSON.parse(localStorage.getItem('myFavBOMList'));
 }
-chapter = chapter.slice(0, chapter.length -1);
-chaptersArray = chaptersArray.filter((item) => item !== chapter);
+
 function deleteChapter(chapter) {
     chapter = chapter.slice(0, chapter.length -1);
     chaptersArray = chaptersArray.filter(item => item !== chapter);
