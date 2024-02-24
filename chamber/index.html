@@ -19,6 +19,10 @@
     <meta property="og:url" content="https://rebecamurcia.github.io/wdd230/chamber/">
 </head>
 <body>
+    <div id="mode">
+        🌚/🌝
+        <p>Dark mode</p>
+    </div>
     <header>
         <div class="logo">
             <img src="images/chamber-logo.webp" alt="Vancouver Front Chamber of Commerce Logo">
@@ -38,12 +42,12 @@
             <picture>
                 <source srcset="images/waterfront-small.webp" media="(max-width: 500px)">
                 <source srcset="images/waterfront-medium.webp" media="(max-width:1000px)">
-                <img src="images/waterfront-large.webp" alt="Vancouver Waterfront view from Columbia River" width="1500" height="750">
+                <img src="images/waterfront-large.webp" alt="Vancouver Waterfront view from Columbia River" loading="lazy" width="1500" height="750">
             </picture>
             
             <div class="hero-text">
                 <h1>Inspire Change</h1>
-                <p>You can do great things in the community</p>
+                <p>You can do great things in the community!</p>
                 <button class="button">Become a Member</button>
             </div>
         </div>
@@ -62,8 +66,7 @@
     
             <a href="#"><img class="icons" src="images/events-icon.webp" alt="events icon in blue">
             <h3>Local Events</h3>
-            </a>
-        
+            </a> 
     </section>
     <section class="mission">
         <div class="statement">
@@ -79,6 +82,28 @@
         <img src="images/mission.webp" alt="Chamber working">
     </section>
     <div class="title">
+
+        <section class="mid-section">
+            <div class="weather">
+                <div class="left">
+                    <img src="images/clouds.png" alt="clouds and sun vector" class="weather-icon">
+                </div>
+                <div class="right"> 
+                    <h2>Weather</h2>
+                    <p> 48° </p>
+                    <p>Partly cloudy</p>
+                    <p>Humidity: 70% </p>
+                    <p>Windchill: N/A</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <h2>Upcoming Event</h2>
+                <h4>Block Party</h4>
+                <p>Join us for the Block Party in 1st street and Grand Avenue on Saturday March 3rd!</p>
+            </div>
+        </section>
+
         <h1>Current News</h1>
     </div>
     <section class="news">

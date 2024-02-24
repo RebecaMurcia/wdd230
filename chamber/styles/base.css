@@ -38,7 +38,7 @@ nav {
     font-size:2rem;
     background-color: white;
     position:absolute;
-    top:1rem;
+    top:3rem;
     right:1rem;
     color: var(--primary-color);
 }
@@ -83,6 +83,8 @@ div .hero-text{
     background-color: rgba(255, 255, 255, 0.574);
     position: absolute;
     margin:10px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 .hero-text{  
     padding:30px;
@@ -101,8 +103,8 @@ div .hero-text{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--second-color);
     padding-top: 10px;
+    background-color: var(--second-color);
 }
 .more{
     display:flex;
@@ -110,8 +112,9 @@ div .hero-text{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: var(--second-color);
     height:35em;
+    background-color: var(--second-color);
+    border-bottom:1px solid white;
 }
 img.icons {
     display: flex; 
@@ -131,9 +134,7 @@ img.icons:hover{
     display:flex;
     flex-direction: column;
     padding: 30px;
-    border-bottom-style: solid;
-    border-width: 1px;
-    border-color: var(--second-color);
+    border:1px solid var(--second-color);
 }
 .mission img{
     width: 30em;
@@ -147,6 +148,44 @@ img.icons:hover{
     padding: 20px;
     flex-wrap: wrap;
    
+}
+.mid-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:20px 20px;
+   
+}
+.weather{
+    width: 20em;
+    height: 10em;
+    margin:20px;
+    overflow: hidden;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.weather img{
+    float:right;
+    width:180px;
+    height: auto;
+}
+.event{
+    width: 40em;
+    margin:20px;
+    overflow: hidden;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.card{
+    width: 325px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(187, 180, 177);
+    border-radius: 5px;
+    margin: 20px;  
 }
 .news{
     display: flex;
@@ -163,13 +202,7 @@ img.icons:hover{
 section.news{
     margin:20px;
 }
-.card{
-    width: 325px;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgb(187, 180, 177);
-    border-radius: 5px;
-    margin: 20px;  
-}
+
 .card img{
     width: 100%;
     height: auto;
@@ -209,4 +242,18 @@ footer p{
     flex-direction: row;
     justify-content: center;
     font-size: 10px;
+}
+/* dark mode */
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 50px;
+    text-align: center;
+	cursor: pointer;
+	font-size: 10px;
+}
+.dark-mode {
+	background-color: #000;
+	color: #fff;
 }
