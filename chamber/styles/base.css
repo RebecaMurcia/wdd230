@@ -257,3 +257,22 @@ footer p{
 	background-color: #000;
 	color: #fff;
 }
+
+/* discovery page styling */
+.grid-area{
+    height: 100hv;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+.sidebar{
+    background-color:white;
+}
+.details{
+    box-shadow: 0 0 20px rgb(212, 205, 203);
+    border-radius: 5px;
+    margin:30px;
+    padding:20px;
+}
+.main{
+    background-color: var(--second-color);
+}
