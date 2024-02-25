@@ -41,7 +41,6 @@
 }
 /* discovery page styling */
 .grid-area{
-    height: 100hv;
     display: grid;
     grid-template-columns: 400px 1fr;
 }
@@ -56,5 +55,22 @@
 }
 .main{
     background-color: var(--second-color);
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 50px;
+    padding:20px; 
+}
+.main img{
+    width: 100%;
+    background: black;
+    animation: fade 15s;
+}
+@keyframes fade {  
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
     
