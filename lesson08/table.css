@@ -1,13 +1,30 @@
 table{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 50em;
+    border: 1px solid #ddd;
 }
-td, th{
-    border: 1px solid #dddddd;
+td, th.header{
     text-align: left;
     padding: 8px;
+    border: 1px solid #ddd;
 }
 tr:nth-child(even){
     background-color: #dddddd;
+}
+.title{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.blank{
+    background-color: black;
+}
+.header{
+    background-color: rgb(62, 55, 55);
+    color:white;
+}
+caption{
+    caption-side: bottom;
+    padding: 8px;
 }
