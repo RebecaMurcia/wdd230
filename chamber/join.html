@@ -37,10 +37,11 @@
         </ul>
         </nav>   
     </header>
-    <main class="grid-area">
-        <section>
-            <h1 class="header">Membership Account Form</h1>
-            <form method="get" action="record.html" class="course-form">
+    <h1 class="header">Membership Account Form</h1>
+    <main class="grid-form">
+        <section class="member-form">
+            <!-- <h1 class="header">Membership Account Form</h1> -->
+            <form method="get" action="thankyou.html" class="mform">
                 <fieldset>
                     <legend>Applicant Information</legend>
                     <label for="fname">First Name* <input id="fname" type="text" name="fname" required></label>
@@ -54,14 +55,61 @@
 
                 <fieldset>
                     <legend>Membership Level</legend>
-                    <label><input type="radio" name="membership" value="non profit">NP Memberhsip</label>
-                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
-                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
                     <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                    <label><input type="radio" name="membership" value="non profit">NP Memberhsip</label>                       
                 </fieldset>
-                <button type="submit">Join Membership</button>
+                <input class="button" type="submit" value="Join Membership"></input>
                 <input type="hidden" id="lastModified" name="lastModified">
+        </section>
 
+        <section class="member-desc" >
+            <div class="details" id="gold">
+                <h2>Gold Membership</h2>
+                <h4>Price Range: $11500 - $17500 Annually</h4>
+                <p>Gold Members enjoy of significant benefits that will make their business
+                gain more visiibility. Such benefits include prominent placement in the Chamber's 
+                directory, featured listings on the Chamber's website, and special recognition at events.</p>
+
+                <p>Golden Members have access to exclusive resources, such as market research
+                reports, industry insights, or educational materials. These resources can provide valuable 
+                information to help them grow and succeed in their business.</p>
+            </div>
+            <div class="details" id="silver">
+                <h2>Silver Membership</h2>
+                <h4>Price Range: $3000 - $5800 Annually</h4>
+                <p>Silver Members have access to exclusive networking events or forums, 
+                    providing them with additional opportunities to connect with other businesses 
+                    and community leaders. </p>
+
+                <p>Silver Members gain access to educational resources and workshops at 
+                    discounted rates. This could include seminars, training sessions, or webinars 
+                    that can benefit their business growth and development.</p>
+            </div>
+            <div class="details" id="bronze">
+                <h2>Bronze Membership</h2>
+                <h4>Price Range: $100 - $1950 Annually</h4>
+                <p>Bronze Members receive foundational benefits, such as access to 
+                    networking events, participation in Chamber programs, and inclusion in 
+                    the Chamber's directory.</p>
+
+                    <p>Bronze Membersreceive access to basic educational resources 
+                    and workshops organized by the Chamber. These could include introductory 
+                    seminars or informational sessions on relevant business topics.</p>
+            </div>
+            <div class="details" id="np">
+                <h2>NP Membership</h2>
+                <h4>No fee to join</h4>
+                <p>Non-profit members may benefit from increased visibility through our 
+                    communication channels. This could include mentions 
+                in newsletters, social media shoutouts, or features on our website, 
+                helping to raise awareness about the non-profit's mission and activities.</p>
+
+                <p>NP members have access to information about grants, sponsorships, or other 
+                funding opportunities available organizations. NP members receive recognition from 
+                the Chamber for their contributions to the community. </p>
+            </div>
         </section>
 
     </main>
