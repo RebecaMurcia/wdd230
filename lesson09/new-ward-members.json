@@ -1,0 +1,20 @@
+{
+    "wardInformation": {
+    "familyName": "Tolson",
+    "moveInDate": "2024-02-11",
+    "numberOfPeople": 2,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "James Michael Tolson",
+        "gender": "Male",
+        "birthdate": "1980-07-10"
+      },
+      {
+        "name": "Adrianne Tolson",
+        "gender": "Female",
+        "birthdate": "1979-04-29"
+      }
+    ]
+    }
+  }
