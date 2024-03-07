@@ -2,7 +2,7 @@
     "wardInformation": {
     "familyName": "Tolson",
     "moveInDate": "2024-02-11",
-    "numberOfPeople": 2,
+    "numberOfPeople": 4,
     "visitedByBishopric": true,
     "familyMembers": [
       {
@@ -14,6 +14,16 @@
         "name": "Adrianne Tolson",
         "gender": "Female",
         "birthdate": "1979-04-29"
+      },
+      {
+        "name": "Lianne Tolson",
+        "gender": "Female",
+        "birthdate": "1993-06-25"
+      },
+      {
+        "name": "Danna Tolson",
+        "gender": "Female",
+        "birthdate": "2000-03-20"
       }
     ]
     }
