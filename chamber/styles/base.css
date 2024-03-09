@@ -14,15 +14,15 @@
 }
 .button{
     margin:10px;
-    /* padding:20px; */
+    padding:20px;
     background-color: white;
     box-shadow: 0 0 20px rgb(187, 180, 177);
     color: var(--primary-color);
     font-size:18px;
     border-radius: 5px;
     border:none;
-    width: 80px;
-    height: 40px;
+    /* width: 80px;
+    height: 40px; */
 }
 
 .logo img{ 
@@ -380,7 +380,7 @@ main.directory {
     margin: 0 auto;
     padding: 0.5rem;
     max-width: 700px;
-    background-color: #fff;
+    background-color: var(--second-color);
 } 
 .menu{
     margin: 1rem auto;
