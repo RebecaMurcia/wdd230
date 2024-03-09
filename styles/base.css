@@ -126,7 +126,8 @@ main {
     padding: 5px;
 }
 .lessons li a{
-    font-size: 1rem;
+    font-size: .80em;
+    color:rgb(185, 28, 106);
 }
 
 footer{
