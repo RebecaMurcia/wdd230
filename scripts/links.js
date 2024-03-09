@@ -9,7 +9,7 @@ async function getLinks () {
 getLinks();
 
 const displayLinks = (weeks) => {
-    weeks.forEach ((week) => {
+     ((week) => {
         //console.log(week);
         const listItem = document.createElement("li");
         const lessonWeek = document.createTextNode(`Lesson ${week.lesson}:`);
@@ -27,7 +27,7 @@ const displayLinks = (weeks) => {
                 listIten.innerHTML += " | ";
             }    
         });
-        const list = document.querySelector(".la-card");
+        const list = document.querySelector(".lessons");
         list.appendChild(listItem);
     });
 };
