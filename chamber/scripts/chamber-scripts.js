@@ -72,7 +72,7 @@ const displayMembers = (members) => {
         website.setAttribute("href", `https://${member.website}`);
         website.textContent = member.website;
 
-        const logo =document.createElement("img");
+        const logo = document.createElement("img");
         logo.setAttribute("src", member.logo);
         logo.setAttribute("alt", `${member.name.toLowerCase()}-logo`);
         logo.setAttribute("loading", "lazy");
