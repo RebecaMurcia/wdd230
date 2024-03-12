@@ -41,22 +41,6 @@ localStorage.setItem("numVisits-ls", numVisits);
 const baseURL = "https://rebecamurcia.github.io/wdd230/";
 const dataURL = "../data/members.json";
 
-// async function getMembers() {
-//     try{
-//         const response = await fetch(dataURL);
-//         if (!response.ok) {
-//             throw new Error("Failed to fetch data");
-//         }
-//         const data = await response.json();
-//         displayMembers(data.members);
-//         return data;
-//     } catch (error) {
-//         console.error("Error fetching data:", error);
-//         throw error;
-//     }
-// }
-// getMembers();
-
 const displayMembers = (members) => {
     const cards = document.querySelector("#members");
      members.forEach((member) => {
@@ -113,3 +97,19 @@ fetch(dataURL).then(function(response) {
  console.log("JSON work");
 });
 console.log("test");
+
+// async function getMembers() {
+//     try{
+//         const response = await fetch(dataURL);
+//         if (!response.ok) {
+//             throw new Error("Failed to fetch data");
+//         }
+//         const data = await response.json();
+//         displayMembers(data.members);
+//         return data;
+//     } catch (error) {
+//         console.error("Error fetching data:", error);
+//         throw error;
+//     }
+// }
+// getMembers();
