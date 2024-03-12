@@ -28,7 +28,7 @@ let numVisits =
 Number(window.localStorage.getItem("numVisits-ls")) || 0;
 
 if (numVisits !== 0) {
-    visitsDisplay.textContent = numVisits;
+    // visitsDisplay.textContent = numVisits;
 } else {
     visitsDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
 }
@@ -39,23 +39,23 @@ localStorage.setItem("numVisits-ls", numVisits);
 
 // Directory list
 const baseURL = "https://rebecamurcia.github.io/wdd230/";
-const dataURL = "https://rebecamurcia.github.io/wdd230/chamber/data/members.json";
+const dataURL = "../data/members.json";
 
-async function getMembers() {
-    try{
-        const response = await fetch(dataURL);
-        if (!response.ok) {
-            throw new Error("Failed to fetch data");
-        }
-        const data = await response.json();
-        displayMembers(data.members);
-        return data;
-    } catch (error) {
-        console.error("Error fetching data:", error);
-        throw error;
-    }
-}
-getMembers();
+// async function getMembers() {
+//     try{
+//         const response = await fetch(dataURL);
+//         if (!response.ok) {
+//             throw new Error("Failed to fetch data");
+//         }
+//         const data = await response.json();
+//         displayMembers(data.members);
+//         return data;
+//     } catch (error) {
+//         console.error("Error fetching data:", error);
+//         throw error;
+//     }
+// }
+// getMembers();
 
 const displayMembers = (members) => {
     const cards = document.querySelector("#members");
@@ -103,3 +103,13 @@ function showList(){
     display.classList.add("list");
     display.classList.remove("grid");
 }
+
+fetch(dataURL).then(function(response) {
+    return response.json();
+}).then(function(jsonObject) {
+    // console.table(jsonObject)
+    const buzzList = jsonObject['members'];
+ buzzList.forEach(displayMembers);
+ console.log("JSON work");
+});
+console.log("test");
