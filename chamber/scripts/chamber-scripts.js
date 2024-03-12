@@ -63,7 +63,7 @@ const displayMembers = (members) => {
         const bizCard = document.createElement("section");
         bizCard.setAttribute("class", "member");
         const companyName = document.createElement("h3");
-        companyName.textContent = member.company;
+        companyName.textContent = member.name;
         const address = document.createElement("p");
         address.textContent = member.address;
         const phone = document.createElement("p");
@@ -74,7 +74,7 @@ const displayMembers = (members) => {
 
         const logo =document.createElement("img");
         logo.setAttribute("src", member.logo);
-        logo.setAttribute("alt", `${member.company.toLowerCase()}-logo`);
+        logo.setAttribute("alt", `${member.name.toLowerCase()}-logo`);
         logo.setAttribute("loading", "lazy");
         logo.setAttribute("width", "75");
         logo.setAttribute("height", "auto");

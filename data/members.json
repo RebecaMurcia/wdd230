@@ -3,7 +3,7 @@
         {
             "name":"Chick-fil-A",
             "address":"16400 SE Mill Plain Blvd, Vancouver, WA 98684",
-            "phone number":"(360) 980 8535",
+            "phone":"(360) 980 8535",
             "website":"https://vancouvercfa.com/",
             "logo":"chamber/images/logos/chickfila.png",
             "membership level":"Gold",
@@ -12,7 +12,7 @@
         {
             "name":"Church & Dwight Co., Inc",
             "address":"6211 NE Campus Drive, Vancouver, WA 98661",
-            "phone number":"(360) 737 6800",
+            "phone":"(360) 737 6800",
             "website":"https://www.churchdwight.com/",
             "logo":"chamber/images/logos/churchdiwght.png",
             "membership level":"Silver",
@@ -21,7 +21,7 @@
         {
             "name":"HAPO Community Credit Union",
             "address":"13909 SE Mill Plain, Vancouver, WA 98683",
-            "phone number":"(360) 605 1010",
+            "phone":"(360) 605 1010",
             "website":"https://www.hapo.org/",
             "logo":"chamber/images/logos/hapo.png",
             "membership level":"Silver",
@@ -39,7 +39,7 @@
         {
             "name":"NW Natural",
             "address":"250 SW Taylor St, Portland, OR 97204",
-            "phone number":"(503) 226 4211",
+            "phone":"(503) 226 4211",
             "website":"https://www.nwnatural.com/",
             "logo":"chamber/images/logos/nwnatural.png",
             "membership level":"Gold",
@@ -48,7 +48,7 @@
         {
             "name":"Peace Health Columbia Network",
             "address":"400 NE Mother Joseph PI, Vancouver, WA 98664",
-            "phone number":"(360) 514 2000",
+            "phone":"(360) 514 2000",
             "website":"https://www.peacehealth.org/",
             "logo":"chamber/images/logos/peacehealth.png",
             "membership level":"Silver",
@@ -57,7 +57,7 @@
         {
             "name":"Washington Trust Bank",
             "address":"760 SW 9th Avenue, Ste 1900, Portland, OR 97205",
-            "phone number":"(800) 780 4578",
+            "phone":"(800) 780 4578",
             "website":"https://www.watrust.com/",
             "logo":"chamber/images/logos/bank.png",
             "membership level":"Gold",
@@ -66,7 +66,7 @@
         {
             "name":"Waste Connections of Washington, INC.",
             "address":"12115 NE 99th St, Ste 1830, Vancouver, WA 97205",
-            "phone number":"(800) 780 4578",
+            "phone":"(800) 780 4578",
             "website":"https://wcnorthwest.com/",
             "logo":"chamber/images/logos/waste.png",
             "membership level":"Bronze",
