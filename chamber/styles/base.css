@@ -399,3 +399,25 @@ main.directory {
 .grid section > *{
     margin:0.1em;
 }
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding:0.25rem;
+}
+.list section >*{
+    margin:0 1rem;
+}
+.list section img{
+    display: none;
+}
+.list section h3{
+    font-size: 1rem;
+}
+.list section:nth-child(even){
+    background-color: var(--second-color);
+}
