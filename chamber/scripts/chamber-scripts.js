@@ -1,4 +1,4 @@
-//navigation bar
+//navigation bar****************************************
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
 
@@ -7,11 +7,13 @@ hamButton.addEventListener('click', () => {
     hamButton.classList.toggle('open');
 }
 );
-//Current year
+//Current year******************************************
 document.getElementById("year").innerHTML = new Date().getFullYear();
-//Last modified 
+
+//Last modified****************************************** 
 document.getElementById('lastModified').innerHTML = new Date(document.lastModified);
-//dark mode
+
+//dark mode***********************************************
 const modeButton = document.querySelector("#mode");
 const body = document.querySelector("body");
 const main = document.querySelector("main");
@@ -20,7 +22,7 @@ modeButton.addEventListener("click", () => {
 	body.classList.toggle('dark-mode');
 	main.classList.toggle('dark-mode');
 });
-// number of visits
+// number of visits*****************************************
 const visitsDisplay =
 document.querySelector('.number-visits');
 
@@ -37,7 +39,7 @@ numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
 
-// Directory list
+// Directory list *****************************************
 const baseURL = "https://rebecamurcia.github.io/wdd230/";
 const dataURL = "../data/members.json";
 
