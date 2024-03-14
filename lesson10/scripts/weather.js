@@ -24,7 +24,10 @@ function displayResults(data){
 weatherIcon.setAttribute("src", iconURL); 
 captionDesc.textContent = data.weather[0].description;
 currentTemp.textContent = " "+ Math.round(data.main.temp);
-}
+};
+
+
+
 
 
 
