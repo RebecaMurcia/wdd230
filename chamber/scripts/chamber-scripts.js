@@ -43,8 +43,8 @@ localStorage.setItem("numVisits-ls", numVisits);
 const baseURL = "https://rebecamurcia.github.io/wdd230/";
 const dataURL = "../data/members.json";
 
-const displayMembers = (members) => {
-    const cards = document.querySelector("#members");
+const displayList = (members) => {
+    const cards = document.querySelector(".listview");
      members.forEach((member) => {
         const bizCard = document.createElement("section");
         bizCard.setAttribute("class", "member");
@@ -77,41 +77,58 @@ const displayMembers = (members) => {
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
+const listview = document.querySelector(".listview");
+const cardview = document.querySelector(".cardview");
 
 gridbutton.addEventListener("click", () => {
-    display.classList.add("grid");
-    display.classList.remove("list");
+    // display.classList.add("grid");
+    // display.classList.remove("list");
+    listview.style.display = "none";
+    cardview.style.display = "block";
 });
-
 listbutton.addEventListener("click",showList);
 
 function showList(){
-    display.classList.add("list");
-    display.classList.remove("grid");
+    // display.classList.add("list");
+    // display.classList.remove("grid");
+    cardview.style.display ="none";
+    listview.style.display = "block";
 }
+
+const displayCards = (data) => { 
+    let memCard = document.createElement("div");
+    let image = document.createElement("img");
+    image.setAttribute("src", data.logo);
+    image.setAttribute("alt", "Company Logo");
+    let name = document.createElement("h3");
+    name.textContent = `${data.name}`;
+    let address = document.createElement("p");
+    address.textContent = `${data.address}`;
+    let phone = document.createElement("p");
+    phone.textContent = `${data.phone}`;
+    let website = document.createElement("a");
+    website.setAttribute("href", data.website);
+    website.textContent = `${data.website}`;
+
+    memCard.appendChild(image);
+    memCard.appendChild(name);
+    memCard.appendChild(address);
+    memCard.appendChild(phone);
+    memCard.appendChild(website);
+
+    document.querySelector(".cardview").appendChild(memCard);
+
+    
+} 
+
 
 fetch(dataURL).then(function(response) {
     return response.json();
 }).then(function(jsonObject) {
-    // console.table(jsonObject)
-    const buzzList = jsonObject['members'];
- buzzList.forEach(displayMembers);
- console.log("JSON work");
-});
-console.log("test");
 
-// async function getMembers() {
-//     try{
-//         const response = await fetch(dataURL);
-//         if (!response.ok) {
-//             throw new Error("Failed to fetch data");
-//         }
-//         const data = await response.json();
-//         displayMembers(data.members);
-//         return data;
-//     } catch (error) {
-//         console.error("Error fetching data:", error);
-//         throw error;
-//     }
-// }
-// getMembers();
+    const buzzList = jsonObject['members'];
+ displayList(buzzList);
+ buzzList.forEach(displayCards);
+});
+
+

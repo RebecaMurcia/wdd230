@@ -86,14 +86,16 @@
 
         <section class="mid-section">
             <div class="weather">
-                <div class="left">
+                <!-- <div class="left">
                     <img src="images/clouds.png" alt="clouds and sun vector" class="weather-icon">
-                </div>
+                </div> -->
                 <div class="right"> 
-                    <h2>Weather</h2>
-                    <p> 48° </p>
-                    <p>Partly cloudy</p>
-                    <p>Humidity: 70% </p>
+                    <h2>Current Weather</h2>
+                    <p><span id="current-temp"></span>°</p>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
                     <p>Windchill: N/A</p>
                 </div>
             </div>
@@ -101,7 +103,7 @@
             <div class="event">
                 <h2>Upcoming Event</h2>
                 <h4>Block Party</h4>
-                <p>Join us for the Block Party in 1st street and Grand Avenue on Saturday March 3rd!</p>
+                <p>Join us for the Block Party in 1st street and Grand Avenue on Saturday March 23rd!</p>
             </div>
         </section>
 
@@ -150,5 +152,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/chamber-scripts.js"></script>
+    <script src="scripts/weatherchamber.js"></script>
 </body>
 </html>

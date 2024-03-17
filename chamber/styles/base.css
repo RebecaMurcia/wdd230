@@ -170,8 +170,9 @@ img.icons:hover{
 }
 .weather img{
     float:right;
-    width:180px;
+    width:100px;
     height: auto;
+    
 }
 .event{
     width: 40em;
