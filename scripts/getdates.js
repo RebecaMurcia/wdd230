@@ -105,7 +105,7 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(data){
-    const iconURL = "images/clouds.png";
+    const iconURL = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
 weatherIcon.setAttribute("src", iconURL); 
 captionDesc.textContent = data.weather[0].description;
 currentTemp.textContent = " "+ Math.round(data.main.temp);

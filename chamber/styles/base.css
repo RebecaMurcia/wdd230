@@ -160,7 +160,7 @@ img.icons:hover{
 }
 .weather{
     width: 20em;
-    height: 10em;
+    height: auto;
     margin:20px;
     overflow: hidden;
     background-color: var(--primary-color);
@@ -170,9 +170,15 @@ img.icons:hover{
 }
 .weather img{
     float:right;
-    width:100px;
-    height: auto;
-    
+    width:150px;
+    height: auto;  
+}
+p.temp{
+    font-size: 35px;
+    font-weight:500;
+}
+div.home-weather1{
+    padding-bottom: 20px;
 }
 .event{
     width: 40em;
