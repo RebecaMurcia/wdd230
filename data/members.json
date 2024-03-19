@@ -27,15 +27,7 @@
             "membership level":"Silver",
             "Business Hours":"9:00 AM - 05:30 PM Mon-Sat. 9 AM - 1:00 PM Sundays"      
         },
-        {
-            "name":"Chick-fil-A",
-            "address":"16400 SE Mill Plain Blvd, Vancouver WA 98684",
-            "phone number":"(360) 980 8535",
-            "website":"https://vancouvercfa.com/",
-            "logo":"chamber/images/logos/chickfila.png",
-            "membership level":"Gold",
-            "Business Hours":"6:30 AM - 10:00 PM Mon-Sat. Closed Sunday"      
-        },
+
         {
             "name":"NW Natural",
             "address":"250 SW Taylor St, Portland, OR 97204",

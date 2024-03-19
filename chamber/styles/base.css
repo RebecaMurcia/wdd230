@@ -297,6 +297,7 @@ footer p{
     }
 }
 
+
 /* join page  */
 h1.header{
     margin-left:40px;
@@ -405,6 +406,9 @@ main.directory {
 }
 .grid section > *{
     margin:0.1em;
+}
+.listview{
+    display:none;
 }
 .list{
     display: flex;
