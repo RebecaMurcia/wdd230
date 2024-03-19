@@ -5,7 +5,7 @@
             "address":"16400 SE Mill Plain Blvd, Vancouver, WA 98684",
             "phone":"(360) 980 8535",
             "website":"https://vancouvercfa.com/",
-            "logo":"chamber/images/logos/chickfila.png",
+            "logo":"images/logos/chickfila.png",
             "membership level":"Gold",
             "Business Hours":"6:30 AM - 10:00 PM Mon-Sat. Closed Sunday"      
         },
@@ -14,7 +14,7 @@
             "address":"6211 NE Campus Drive, Vancouver, WA 98661",
             "phone":"(360) 737 6800",
             "website":"https://www.churchdwight.com/",
-            "logo":"chamber/images/logos/churchdiwght.png",
+            "logo":"images/logos/churchdiwght.png",
             "membership level":"Silver",
             "Business Hours":"10:30 AM - 11:00 PM Mon-Sun."      
         },
@@ -23,7 +23,7 @@
             "address":"13909 SE Mill Plain, Vancouver, WA 98683",
             "phone":"(360) 605 1010",
             "website":"https://www.hapo.org/",
-            "logo":"chamber/images/logos/hapo.png",
+            "logo":"images/logos/hapo.png",
             "membership level":"Silver",
             "Business Hours":"9:00 AM - 05:30 PM Mon-Sat. 9 AM - 1:00 PM Sundays"      
         },
@@ -33,7 +33,7 @@
             "address":"250 SW Taylor St, Portland, OR 97204",
             "phone":"(503) 226 4211",
             "website":"https://www.nwnatural.com/",
-            "logo":"chamber/images/logos/nwnatural.png",
+            "logo":"images/logos/nwnatural.png",
             "membership level":"Gold",
             "Business Hours":"8:00 AM - 05:00 PM Mon-Fri."      
         },
@@ -42,7 +42,7 @@
             "address":"400 NE Mother Joseph PI, Vancouver, WA 98664",
             "phone":"(360) 514 2000",
             "website":"https://www.peacehealth.org/",
-            "logo":"chamber/images/logos/peacehealth.png",
+            "logo":"images/logos/peacehealth.png",
             "membership level":"Silver",
             "Business Hours":"6:30 AM - 10:00 PM Mon-Sat. Closed Sunday"      
         },
@@ -51,7 +51,7 @@
             "address":"760 SW 9th Avenue, Ste 1900, Portland, OR 97205",
             "phone":"(800) 780 4578",
             "website":"https://www.watrust.com/",
-            "logo":"chamber/images/logos/bank.png",
+            "logo":"images/logos/bank.png",
             "membership level":"Gold",
             "Business Hours":"8:00 AM - 5:00 PM Mon-Fri."      
         },
@@ -60,7 +60,7 @@
             "address":"12115 NE 99th St, Ste 1830, Vancouver, WA 97205",
             "phone":"(800) 780 4578",
             "website":"https://wcnorthwest.com/",
-            "logo":"chamber/images/logos/waste.png",
+            "logo":"images/logos/waste.png",
             "membership level":"Bronze",
             "Business Hours":"8:00 AM - 5:00 PM Mon-Fri."      
         }     

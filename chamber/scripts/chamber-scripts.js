@@ -46,8 +46,8 @@ const dataURL = "../data/members.json";
 const displayList = (members) => {
     const cards = document.querySelector(".listview");
      members.forEach((member) => {
-        const bizCard = document.createElement("section");
-        bizCard.setAttribute("class", "member");
+        const bizCard = document.createElement("ul");
+        const listItem = document.createElement("li");
         const companyName = document.createElement("h3");
         companyName.textContent = member.name;
         const address = document.createElement("p");
@@ -81,16 +81,12 @@ const listview = document.querySelector(".listview");
 const cardview = document.querySelector(".cardview");
 
 gridbutton.addEventListener("click", () => {
-    // display.classList.add("grid");
-    // display.classList.remove("list");
     listview.style.display = "none";
     cardview.style.display = "block";
 });
 listbutton.addEventListener("click",showList);
 
 function showList(){
-    // display.classList.add("list");
-    // display.classList.remove("grid");
     cardview.style.display ="none";
     listview.style.display = "block";
 }
