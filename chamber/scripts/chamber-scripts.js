@@ -47,7 +47,7 @@ const displayList = (members) => {
     const cards = document.querySelector(".listview");
      members.forEach((member) => {
         const bizCard = document.createElement("ul");
-        const listItem = document.createElement("li");
+        // const listItem = document.createElement("li");
         const companyName = document.createElement("h3");
         companyName.textContent = member.name;
         const address = document.createElement("p");
@@ -127,4 +127,14 @@ fetch(dataURL).then(function(response) {
  buzzList.forEach(displayCards);
 });
 
+// Meet and greet banner 
+document.addEventListener('DOMContentLoaded',function() {
+    const today = new Date().getDay();
+    if (today === 1 || today === 2 || today === 3){
+        document.getElementById('meetGreetBanner').style.display ="block";
 
+    }
+});
+function closeBanner(){
+    document.getElementById('meetGreetBanner').style.display = "none";
+}
