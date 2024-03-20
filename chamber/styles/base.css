@@ -159,7 +159,7 @@ img.icons:hover{
    
 }
 .weather{
-    width: 20em;
+    width: 60em;
     height: auto;
     margin:20px;
     overflow: hidden;
@@ -179,6 +179,12 @@ p.temp{
 }
 div.home-weather1{
     padding-bottom: 20px;
+}
+section#forecast{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
 }
 .event{
     width: 40em;
