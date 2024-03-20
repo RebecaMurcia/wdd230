@@ -101,7 +101,7 @@ div .hero-text{
     font-weight: bold;
 }
 
-.more-title h1{
+.more-title h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +146,7 @@ img.icons:hover{
     width: 333px;
     height: auto;
 }
-.statement h1, .statement p{
+.statement h2, .statement p{
     padding: 20px;
     flex-wrap: wrap;
    
@@ -218,7 +218,7 @@ img.weather-icon{
     padding: 20px;
     border-radius: 5px;
 }
-div.news-title h1{
+div.news-title h2{
     display: flex;
     justify-content: center;
     margin:30px 0 0 30px;
