@@ -21,7 +21,7 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(data){
-    const iconURL = "images/weather-icons/clear.png";
+    const iconURL = "images/weather-icons/clouds.png";
 weatherIcon.setAttribute("src", iconURL); 
 captionDesc.textContent = data.weather[0].description;
 currentTemp.textContent = " "+ Math.round(data.main.temp);
