@@ -329,8 +329,8 @@ footer p{
     display: grid;
     grid-row:1;
     grid-column: 1/span 2;
-    text-align: center;
-
+    margin-left: 30px;
+    border-bottom: 1px solid var(--second-color);
 }
 .main{
     background-color: var(--second-color);
