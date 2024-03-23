@@ -283,7 +283,7 @@ footer p{
     justify-content: center;
 }
 #lastModified{
-    color: grey;
+    color: var(--primary-color);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -505,6 +505,7 @@ align-items: center;
     background-color: var(--second-color);
 }
 .banner{
+    display: block;
     position: fixed;
     bottom: 0;
     left: 0;
