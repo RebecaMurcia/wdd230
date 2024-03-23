@@ -65,6 +65,11 @@
     gap: 50px;
     padding:20px; 
 }
+.main img{
+    width: 100%;
+    background: #c9dae1;;
+    animation: fade 3s;
+}
 @keyframes fade {  
     0% {
         opacity: 0;
@@ -73,5 +78,4 @@
         opacity: 1;
     }
 }
-    
 

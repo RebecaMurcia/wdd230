@@ -67,8 +67,8 @@
 }
 .main img{
     width: 100%;
-    background: black;
-    animation: fade 15s;
+    background: #c9dae1;;
+    animation: fade 3s;
 }
 @keyframes fade {  
     0% {
