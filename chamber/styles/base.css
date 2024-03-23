@@ -10,7 +10,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Raleway', sans-serif;
-    line-height:1.8em;
+    line-height:1.5em;
 }
 .button{
     margin:10px;
@@ -78,7 +78,7 @@ nav {
     gap:40px;  
 }
 .hero-section img{
-    width: 1600px;
+    width: 1500px;
     height: 500px;
 }
 div .hero-text{
