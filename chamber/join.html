@@ -40,13 +40,12 @@
     <h1 class="header">Membership Account Form</h1>
     <main class="grid-form">
         <section class="member-form">
-            <!-- <h1 class="header">Membership Account Form</h1> -->
             <form method="get" action="thankyou.html" class="mform">
                 <fieldset>
                     <legend>Applicant Information</legend>
                     <label for="fname">First Name* <input id="fname" type="text" name="fname" required></label>
                     <label for="lname">Last Name* <input id="lname" type="text" name="lname" required></label>
-                    <label for="position">Title/position*<input id="position" type="text" name="position"required></label>
+                    <label for="position">Title/position*<input id="position" type="text" name="position" required></label>
                     <label for="email">Email*<input id="email" type="email" name="email" placeholder="someone@email.com" required></label>
                     <label for="phone">Phone* <input id="phone" type="tel" name="phone" required></label>
                     <label for="businessn">Business/Organization's Name*<input id="businessn" type="text" name="businessn" required></label>
@@ -60,8 +59,9 @@
                     <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
                     <label><input type="radio" name="membership" value="non profit">NP Memberhsip</label>                       
                 </fieldset>
-                <input class="button" type="submit" value="Join Membership"></input>
-                <input type="hidden" id="lastModified" name="lastModified">
+                <input class="button" type="submit" value="Join Membership">
+                <input type="hidden" id="lastSubmitted" name="lastSubmitted">
+            </form>    
         </section>
 
         <section class="member-desc" >
