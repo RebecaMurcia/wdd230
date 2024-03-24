@@ -14,11 +14,11 @@
 }
 .button{
     margin:10px;
-    padding:20px;
+    padding:10px;
     background-color: white;
     box-shadow: 0 0 20px rgb(187, 180, 177);
     color: var(--primary-color);
-    font-size:18px;
+    font-size:16px;
     border-radius: 5px;
     border:none;
     /* width: 80px;
@@ -78,22 +78,22 @@ nav {
     gap:40px;  
 }
 .hero-section img{
-    width: 1420px;
-    height: 500px;
+    width: 450px;
+    height: 250px;
 }
 div .hero-text{
     background-color: rgba(255, 255, 255, 0.574);
     position: absolute;
     margin:10px;
-    border-radius: 5px;
+    border-radius:5px;
     
 }
 .hero-text{  
-    padding:30px;
+    padding:10px;
 }
 .hero-text p {
     padding: 20px 0 20px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
 }
 .button:hover{
@@ -277,7 +277,7 @@ footer{
     height: 8em;
 }
 footer p{
-    margin-left: 40px;
+    
     padding: 6px;
     display: flex;
     justify-content: center;
@@ -298,7 +298,7 @@ footer p{
     text-align: center;
 	cursor: pointer;
 	font-size: 10px;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 .dark-mode {
 	background-color: #000;

@@ -1,4 +1,4 @@
-@media screen and (min-width:768px){
+@media screen and (min-width:668px){
     header{
         display: flex;
     }
@@ -22,8 +22,23 @@
         padding-bottom: 5px;
     }
     .hero-section img{
-        width: 1420px;
+        width: 1000px;
         height: 500px;
+    }
+    div .hero-text{
+        background-color: rgba(255, 255, 255, 0.574);
+        position: absolute;
+        margin:10px;
+        border-radius: 5px;
+        
+    }
+    .hero-text{  
+        padding:30px;
+    }
+    .hero-text p {
+        padding: 20px 0 20px;
+        font-size: 20px;
+        font-weight: 500;
     }
     .more{
         display: flex;
@@ -41,6 +56,12 @@
         width: 500px;
         height: 333px;
     }
+    footer p{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left:40px;
+       }
    
 }
 
