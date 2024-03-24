@@ -304,16 +304,14 @@ footer p{
 
 /* discovery page styling */
 .grid-area{
-    display: grid;
-    grid-template-columns: 400px 1fr;
-    grid-template-rows:auto auto;
-    gap:10px;
+    display: flex;
+    flex-direction: column;
 }
 .sidebar{
     background-color:white;
-    display: grid;
+    /* display: grid;
     grid-column:1/span 1;
-    grid-row:2;
+    grid-row:2; */
 
 }
 .details{
@@ -324,18 +322,19 @@ footer p{
 
 }
 .grid-area h1{
-    display: grid;
-    grid-row:1;
-    grid-column: 1/span 2;
     margin-left: 30px;
     border-bottom: 1px solid var(--second-color);
 }
 .main{
     background-color: var(--second-color);
-    display: grid;
-    grid-template-columns: 400px 400px;
-    gap: 50px;
-    padding:20px; 
+    display: flex;
+    flex-direction: column;
+    padding:36px;
+}
+section.main img{
+   width:20em; 
+   height: auto;
+   padding-top: 20px;
 }
 @keyframes fade {  
     0% {
