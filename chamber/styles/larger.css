@@ -69,8 +69,7 @@
    }
 
    /* discovery page styling */
-  /* discovery page styling */
-.grid-area{
+   .grid-area{
     display: grid;
     grid-template-columns: 400px 1fr;
     grid-template-rows:auto auto;
@@ -103,6 +102,7 @@
     grid-template-columns: 400px 400px;
     gap: 50px;
     padding:20px; 
+
 }
 @keyframes fade {  
     0% {
@@ -112,7 +112,7 @@
         opacity: 1;
     }
 }
- 
+
 
 }
 

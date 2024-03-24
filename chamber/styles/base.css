@@ -309,10 +309,6 @@ footer p{
 }
 .sidebar{
     background-color:white;
-    /* display: grid;
-    grid-column:1/span 1;
-    grid-row:2; */
-
 }
 .details{
     box-shadow: 0 0 20px rgb(212, 205, 203);
