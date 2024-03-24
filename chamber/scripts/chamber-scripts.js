@@ -39,6 +39,7 @@ numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
 
+
 // Directory list *****************************************
 const baseURL = "https://rebecamurcia.github.io/wdd230/";
 const dataURL = "../data/members.json";

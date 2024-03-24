@@ -52,6 +52,15 @@
         flex-direction: row;
         justify-content: space-around;
     }
+    
+    article.weather{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    div.home-weather1{
+        margin:10px;
+    }
    footer p{
     display: flex;
     flex-direction: row;

@@ -175,8 +175,8 @@ img.icons:hover{
 }
 .weather img{
    float:left;
-    width:150px;
-    height: auto;  
+    width:140px;
+    height: auto;
 }
 p.temp{
     font-size: 35px;
@@ -185,25 +185,21 @@ p.temp{
 div.home-weather1{
     padding-bottom: 20px;
 }
-div.home-weather2{
-    display: flex;
-    flex-wrap: wrap;
+div.home-weather2  h2{
+    padding: 10px;
 }
 div.square{
     background-color: rgba(255, 255, 255, 0.225);
     padding:10px 5px 10px;
     margin:6px;
-    /* border:1px solid white; */
     border-radius: 6px;
-    /* min-width: 150px;
-    width: calc(20% - 20px);
-     */
+   
 }
 section#forecast{
     text-align: center;
     display: flex;
     justify-content: center;
-    /* flex-wrap:wrap;  */
+    
 }
 img.weather-icon{
     width: 50%;
