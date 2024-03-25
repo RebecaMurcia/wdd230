@@ -6,7 +6,7 @@
             "phone":"(360) 980 8535",
             "website":"https://vancouvercfa.com/",
             "logo":"images/logos/chickfila.png",
-            "membership level":"Gold",
+            "membership":"Gold",
             "Business Hours":"6:30 AM - 10:00 PM Mon-Sat. Closed Sunday"      
         },
         {
@@ -15,7 +15,7 @@
             "phone":"(360) 737 6800",
             "website":"https://www.churchdwight.com/",
             "logo":"images/logos/churchdiwght.png",
-            "membership level":"Silver",
+            "membership":"Silver",
             "Business Hours":"10:30 AM - 11:00 PM Mon-Sun."      
         },
         {
@@ -24,7 +24,7 @@
             "phone":"(360) 605 1010",
             "website":"https://www.hapo.org/",
             "logo":"images/logos/hapo.png",
-            "membership level":"Silver",
+            "membership":"Silver",
             "Business Hours":"9:00 AM - 05:30 PM Mon-Sat. 9 AM - 1:00 PM Sundays"      
         },
 
@@ -34,7 +34,7 @@
             "phone":"(503) 226 4211",
             "website":"https://www.nwnatural.com/",
             "logo":"images/logos/nwnatural.png",
-            "membership level":"Gold",
+            "membership":"Gold",
             "Business Hours":"8:00 AM - 05:00 PM Mon-Fri."      
         },
         {
@@ -43,7 +43,7 @@
             "phone":"(360) 514 2000",
             "website":"https://www.peacehealth.org/",
             "logo":"images/logos/peacehealth.png",
-            "membership level":"Silver",
+            "membership":"Silver",
             "Business Hours":"6:30 AM - 10:00 PM Mon-Sat. Closed Sunday"      
         },
         {
@@ -52,7 +52,7 @@
             "phone":"(800) 780 4578",
             "website":"https://www.watrust.com/",
             "logo":"images/logos/bank.png",
-            "membership level":"Gold",
+            "membership":"Gold",
             "Business Hours":"8:00 AM - 5:00 PM Mon-Fri."      
         },
         {
@@ -61,7 +61,7 @@
             "phone":"(800) 780 4578",
             "website":"https://wcnorthwest.com/",
             "logo":"images/logos/waste.png",
-            "membership level":"Bronze",
+            "membership":"Bronze",
             "Business Hours":"8:00 AM - 5:00 PM Mon-Fri."      
         }     
     
