@@ -19,8 +19,8 @@ function createCard(member){
     div.classList.add("spotlight");
 
     
-    let h2 = document.createElement("h2");
-    h2.textContent = member.name;
+    let h4 = document.createElement("h4");
+    h4.textContent = member.name;
     let a = document.createElement("a");
     a.setAttribute("href", member.website);
     a.setAttribute("target", "_blank");
@@ -34,7 +34,7 @@ function createCard(member){
     img.setAttribute("alt", member.name);
     
     div.appendChild(img);
-    div.appendChild(h2);
+    div.appendChild(h4);
     div.appendChild(a);
     div.appendChild(p);
     document.querySelector(".spotlightCard").appendChild(div);

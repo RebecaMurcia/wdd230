@@ -61,6 +61,10 @@
     div.home-weather1{
         margin:10px;
     }
+    .spotlightCard{
+        display: flex;
+        flex-direction: row;
+    }
    footer p{
     display: flex;
     flex-direction: row;
