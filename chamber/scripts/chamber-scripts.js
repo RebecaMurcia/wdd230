@@ -30,7 +30,7 @@ let numVisits =
 Number(window.localStorage.getItem("numVisits-ls")) || 0;
 
 if (numVisits !== 0) {
-    visitsDisplay.textContent = numVisits;
+    visitsDisplay.textContent = numVisits + 1;
 } else {
     visitsDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
 }
@@ -118,7 +118,6 @@ const displayCards = (data) => {
     
 } 
 
-
 fetch(dataURL).then(function(response) {
     return response.json();
 }).then(function(jsonObject) {
@@ -128,7 +127,7 @@ fetch(dataURL).then(function(response) {
  buzzList.forEach(displayCards);
 });
 
-// Meet and greet banner 
+// Meet and greet banner******************************
 document.addEventListener('DOMContentLoaded',function() {
     const today = new Date().getDay();
     if (today === 1 || today === 2 || today === 3){
@@ -138,4 +137,47 @@ document.addEventListener('DOMContentLoaded',function() {
 });
 function closeBanner(){
     document.getElementById('meetGreetBanner').style.display = "none";
+}
+
+// business spotlight section************************
+let businessSpotlights = document.querySelector(".businessSpotlights)");
+fetch("../data/members.json")
+.then((response) => response.json())
+.then((data) => {
+    let spotLightmembers = data.filter(member => member.membership == "Silver" || member.membership == "Gold");
+
+    let iterations = spotLightmembers.length < 3 ? spotLightmembers : 3;
+    while(iterations){
+        let idx = ~~(Math.random() * spotLightmembers.lengh);
+        createCard(spotLightmembers.splice(idx,1)[0]);
+
+        iterations --;
+    } 
+});
+
+function createCard(member){
+    let h3 = document.createElement("h3");
+    let a = document.createElement("a");
+    a.setAttribute("rel", "noopener");
+    a.setAttribute("target", "_blank");
+    a.href = member.website;
+    a.innerHTML = member.name;
+
+    h3.append(a);
+
+    let div = document.createElement("div");
+    div.classList.add("card");
+    div.classList.add("spotlight");
+
+    let p = document.createElement("p");
+    p.innerHTML = member.phone;
+
+    let img = document.createElement("img");
+    img.src = member.logo;
+    img.alt = `${member.name}Logo`;
+    img.setAttribute("width","256");
+    img.setAttribute("height","169");
+
+    div.append(h3, p, img);
+    businessSpotlights.append(div);
 }
