@@ -7,6 +7,7 @@ const displayList = (members) => {
      members.forEach((member) => {
         const bizCard = document.createElement("ul");
         // const listItem = document.createElement("li");
+
         const companyName = document.createElement("h3");
         companyName.textContent = member.name;
         const address = document.createElement("p");
