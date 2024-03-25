@@ -469,10 +469,8 @@ height: auto;
 align-items: center;
 }
 .cardview {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap:20px;
-    margin-bottom: 10px;
+    display:flex;
+    flex-direction: column;
 }
 .cardview div{
     background-color:white;
@@ -480,6 +478,7 @@ align-items: center;
     padding:10px;
     align-items: center;
     text-align: center;
+    margin:10px;
 }
 .listview{
     display:none;

@@ -200,6 +200,20 @@ div.thanks{
     padding: 40px;
     margin: 40px;
 }
+/* directory page */
+.cardview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    margin-bottom: 10px;
+}
+.cardview div{
+    background-color:white;
+    box-shadow: 0 0 20px rgb(212, 205, 203);
+    padding:10px;
+    align-items: center;
+    text-align: center;
+}
 
 }
 
