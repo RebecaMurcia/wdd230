@@ -461,21 +461,8 @@ h1.directory-title{
 }
 .menu{
     margin: 3rem auto;
- 
     text-align: center;
 }
-/* .grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap:1px;
-    align-items: center;
-}
-.grid section{
-    text-align: center;
-}
-.grid section > *{
-    margin:0.1em;
-} */
 .cardview img{ 
 width:40%;
 height: auto;
