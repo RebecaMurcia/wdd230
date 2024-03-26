@@ -15,7 +15,7 @@
         color:var(--primary-color);
         padding: 3em;
     }
-    .navigation li a:hover, .navigation li a:active{
+    .navigation li a:hover{
         font-weight:bold;
         background-color: white;
         border-bottom: 3px solid var(--second-color);
