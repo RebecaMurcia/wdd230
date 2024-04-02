@@ -1,0 +1,154 @@
+
+:root{
+    --primary-color:#0B2D32;
+    --second-color:#EBEBEB;
+    --third-color:#35BCD4;
+    --fourth-color:#D7E17A;
+}    
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Leage+Spartan', sans-serif;
+}
+.button{
+    margin:10px;
+    padding:10px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(187, 180, 177);
+    color: var(--primary-color);
+    font-size:16px;
+    border-radius: 5px;
+    border:none;
+    /* width: 80px;
+    height: 40px; */
+}
+
+.logo img{ 
+    order: 1;
+    width: 8em;
+    height: auto;
+    margin-left: 10px;
+}
+nav { 
+    max-width: 700px;
+    margin:1rem auto;
+}
+#menu {
+    display:block;
+    font-size:2rem;
+    background-color: white;
+    position:absolute;
+    top:3rem;
+    right:1rem;
+    color: var(--primary-color);
+}
+#menu::before{
+    content:"☰";
+}
+#menu.open::before{
+    content:"☓";
+}
+.navigation{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--primary-color); 
+    color:white; 
+}
+.navigation a{
+    display: none;
+    padding: 10px;
+    text-align:center;
+    color: var(--second-color);
+}
+.navigation a:hover, .navigation a:active{
+    background-color:var(--second-color);
+    color:var(--primary-color);
+}
+.open a{
+    display: block;
+}
+.hero-section{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    gap:40px;  
+}
+.hero-section img{
+    width: 400px;
+    height: 250px;
+}
+div .hero-text{
+    background-color: rgba(255, 255, 255, 0.574);
+    position: absolute;
+    border-radius:5px;
+    
+}
+.hero-text{  
+    padding:10px;
+}
+.hero-text p {
+    padding: 20px 0 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.button:hover{
+    background-color:var(--primary-color);
+    color:white;
+    font-weight: bold;
+}
+
+.more-title h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    background-color: var(--second-color);
+    font-size:30px;
+}
+.more{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height:35em;
+    background-color: var(--second-color);
+    border-bottom:1px solid white;
+}
+img.icons {
+    display: flex; 
+    width: 6em;
+    height: auto;
+    padding: 20px;
+}
+section.more h3{
+    text-align: center;
+    color:var(--primary-color);
+}
+img.icons:hover{
+    width:9em;
+    height: auto;
+}
+.mission {
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+    border:1px solid var(--second-color);
+}
+.mission img{
+    width: 30em;
+    height:auto;
+    justify-content: center;
+    padding: 20px;
+    width: 333px;
+    height: auto;
+}
+.statement h2, .statement p{
+    padding: 20px;
+    flex-wrap: wrap;
+   
+}

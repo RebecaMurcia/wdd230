@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rebeca Murcia">
+    <meta name="description" content="Vancouver Front Chamber of Commerce home page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <title>Vancouver Front Chamber of Commerce</title>
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Vancouver WaterFront Chamber of Commerce website.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://stateofwatourism.com/wp-content/uploads/2022/07/Getting-Here_Cityscape-17.jpg">
+    <meta property="og:url" content="https://rebecamurcia.github.io/wdd230/chamber/">
+</head>
+<body>
+    <div id="mode">
+        🌚/🌝
+        <p>Dark Mode</p>
+    </div>
+    <header>
+        <div class="logo">
+            <img src="images/chamber-logo.webp" alt="Vancouver Front Chamber of Commerce Logo">
+        </div>
+        <a id="menu" href="#"></a>
+        <nav>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+        </nav>   
+    </header>
+    <main>
+        <div class="hero-section">
+            <picture>
+                <source srcset="images/waterfront-small.webp" media="(max-width: 500px)">
+                <source srcset="images/waterfront-medium.webp" media="(max-width:1000px)">
+                <img src="images/waterfront-large.webp" alt="Vancouver Waterfront view from Columbia River" loading="lazy" width="1500" height="750">
+            </picture>
+            
+            <div class="hero-text">
+                <h1>Vancouver Front Chamber of Commerce</h1>
+                <p>Inspire Change and do great things in the community.</p>
+                <a class="button" href="https://rebecamurcia.github.io/wdd230/chamber/join.html">Become a Member</a>
+               
+            </div>
+        </div>
+    </main>
+    <div class="more-title">
+        <h2>Quick Links</h2>
+    </div>
+    <section class="more">
+            <a href="https://vancouver.ca/guides/starting-a-small-business.aspx" target="_blank"><img class="icons" src="images/resources-icon.webp" alt="resources icon in navy blue">
+            <h3>Resources</h3>
+            </a>
+      
+            <a href="https://www.vancouverusa.com/support-local/spend-it-local/" target="_blank"><img class="icons" src="images/business-icon.webp" alt="small business icon in green">
+            <h3>Local Businesses</h3>
+            </a>
+    
+            <a href="https://www.destinationvancouver.com/events/calendar-of-events/" target="_blank"><img class="icons" src="images/events-icon.webp" alt="events icon in blue">
+            <h3>Local Events</h3>
+            </a> 
+    </section>
+    <section class="mission">
+        <div class="statement">
+            <h2>Our Mission</h2>
+            <p>Our mission and purpose is clear: We support businesses of all types 
+            and sizes in succeeding and thriving throughout our region. For more  
+            than 150 years, it has been our honor to serve the business community
+            of Water Front in Vancouver, WA.</p>
+            <p>With 2,100+ organizational members, the Vancouver Front Chamber is the 
+            leading voice for businesses in the region, advocating to improve commerce, 
+            community development, and regional economic prosperity.</p>
+        </div>
+        <img src="images/mission.webp" alt="Chamber working">
+    </section>
+
+
+        <section class="mid-section">
+            <article class="weather">
+                <div class="home-weather1"> 
+                    <h2>Current Temperature</h2>
+                    <div class="local-weather">
+                        <figure>
+                            <img id="weather-icon" src="images/weather-icons/clouds.png" alt="cloudy">
+                        </figure>
+                        <p class="temp"><span id="temperature"></span> °F</p>
+                        <p><span id="weather-description"></span></p>
+                        <!-- <p>Wind Speed</p>
+                        <p>Windchill:N/A</p> -->
+                    </div>
+                </div>
+                    <hr>
+                    <div class="home-weather2">
+                        <h2>Weather Forecast </h2>
+                        <section id="forecast">
+                            <div class="square">
+                                <img src="images/weather-icons/mist.png"  id="icon1" class="weather-icon" alt="cloudy icon">
+                                <h4 id="day1">Tuesday</h4>
+                                <p id="temp-forecast1">40°F</p> 
+                            </div> 
+                            <div class="square">
+                                <img src="images/weather-icons/mist.png"  id="icon2" class="weather-icon" alt="cloudy icon">
+                                <h4 id="day2">Tuesday</h4>
+                                <p id="temp-forecast2">40°F</p> 
+                            </div>  
+                            <div class="square">
+                                <img src="images/weather-icons/mist.png" id="icon3" class="weather-icon" alt="cloudy icon">
+                                <h4 id="day3">Tuesday</h4>
+                                <p id="temp-forecast3">40°F</p> 
+                            </div> 
+                        </section>       
+                    </div>
+            </article>
+        </section>
+
+    <div class="news-title">
+        <h2>Current News</h2>
+    </div>
+   
+    <section class="news">
+
+        <div class="card">
+            <img src="images/news-events.webp" alt="People eating in a restaurant.">
+            <div class="card-content">
+                <h2>New Bistro in Downtown</h2>
+                <p>We are thrilled to announce the much-anticipated grand opening 
+                of Grand Wit Bar and Grille, a charming addition to the vibrant downtown scene! 
+                Nestled in the heart of Vancouver, this bistro is set to redefine the culinary 
+                experience with a fusion of exquisite flavors and a warm, inviting ambiance.</p>
+                   <a href="https://www.google.com/search?q=bistro+in+vancouver+wa&client=firefox-b-1-d&sca_esv=1a09264f90f8d044&sxsrf=ACQVn0-RS5oGQcVZjilNnGOwGX6FWu7tCg%3A1710912989740&ei=3XX6ZYroLLq80PEPvoar-AQ&oq=bistro+in+vanouc&gs_lp=Egxnd3Mtd2l6LXNlcnAiEGJpc3RybyBpbiB2YW5vdWMqAggBMgcQABiABBgNMgYQABgeGA0yCBAAGAUYHhgNMggQABgFGB4YDTIIEAAYBRgeGA0yCBAAGAUYHhgNMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDSO8uULoGWIsXcAF4AZABAJgBhgGgAYoIqgEDNi40uAEDyAEA-AEBmAILoALoCMICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIOEAAY5AIY1gQYsAPYAQHCAhkQLhiABBiKBRhDGMcBGNEDGMgDGLAD2AECwgIKECMYgAQYigUYJ8ICDhAuGIAEGMcBGK8BGI4FwgIIEAAYgAQYkgPCAgsQLhiABBjHARivAcICCxAuGK8BGMcBGIAEwgIQEAAYgAQYigUYQxixAxiDAcICDRAAGIAEGIoFGEMYyQPCAgsQABiABBiKBRiRAsICBRAAGIAEwgIOEC4YgAQYxwEYrwEYmAXCAhAQLhiABBgUGIcCGMcBGK8BwgINEC4YgAQYxwEYrwEYCsICEBAAGIAEGIoFGJECGEYY_wHCAhwQABiABBiKBRiRAhhGGP8BGJcFGIwFGN0E2AEDwgIGEAAYFhgewgIOEC4YFhgeGMcBGK8BGArCAgUQIRigAcICBRAhGJ8FmAMAiAYBkAYRugYGCAEQARgJugYGCAIQARgIugYGCAMQARgTkgcDNi41oAfBeg&sclient=gws-wiz-serp" target="_blank" class="btn">Read More</a> 
+            </div>
+        </div> 
+
+        <div class="card">
+            <img src="images/news-training.webp" alt="Men in a training learning session.">
+            <div class="card-content">
+                <h2>Small Business Training</h2>
+                <p>Are you ready to elevate your business to new heights? We've teamed up with  
+                   VSB to provide virtual Small Business Training Workshops designed to empower 
+                    you with essential skills and strategies for success. Workshops will be free 
+                    for the first month of launch. </p>
+                   <a href="https://www.cityofvancouver.us/economic-prosperity-and-housing/business-resources/" target="_blank" class="btn">Read More</a> 
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/news-bike.webp" alt="Bike wheels on the ground.">
+            <div class="card-content">
+                <h2>Bike Maps</h2>
+                <p>Download the new bike map and find all bike routes in downtown Vancouver.
+                    Whether you're a seasoned rider or just starting on your cycling 
+                    adventure, our comprehensive maps are designed to enhance your 
+                    biking experience and help you discover the best routes our city has to offer. </p>
+                   <a href="https://vancouver.ca/streets-transportation/cycling-routes-maps-and-trip-planner.aspx" target="_blank" class="btn">Read More</a> 
+            </div>
+        </div>  
+    </section>
+    <div id="meetGreetBanner" class="banner">
+        <p>Join us for the weekly meet and greet every Wednesday at 7:00 pm</p>
+        <button onclick="closeBanner()">Close</button>
+    </div>
+    <section class="businessSpotlights">
+        <h2 class="title-business">Business Spotlight</h2>
+        <div class="spotlightCard">
+
+        </div>
+    </section>
+
+    <footer>
+        <p>1234 Nicholson Rd, Vancouver, WA 98661</p>
+        <p><span id="year">© 2024</span> | Rebeca Murcia  | WDD230</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/chamber-scripts.js"></script>
+    <script src="scripts/weatherchamber.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/homepage.js"></script>
+</body>
+</html>
