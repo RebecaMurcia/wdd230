@@ -9,11 +9,15 @@
         display: flex;
         flex-direction: row;
         background-color: white;
+       
     }
     .navigation a{
         display: flex;
         color:var(--primary-color);
-        padding: 3em;
+        justify-content: space-between;
+        width:40%;
+        text-decoration: none;
+        
     }
     .navigation li a:hover{
         font-weight:bold;
@@ -22,8 +26,8 @@
         padding-bottom: 5px;
     }
     .hero-section img{
-        width: 1420px;
-        height: 500px;
+        width: 1450px;
+        height: 690px;
     }
     div .hero-text{
         background-color: rgba(255, 255, 255, 0.574);
