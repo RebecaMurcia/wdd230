@@ -103,19 +103,24 @@ div.hero-text{
 .hero-text h1 {
     font-size: 20px;
     text-align: left;
-
 }
-.button:hover{
-    background-color:var(--primary-color);
+a.button{
     color:white;
+    text-decoration: none;
+}
+a.button:hover{
+    color:var(--primary-color);
     font-weight: bold;
+    text-decoration: underline;
 }
 .container{
     display: grid;
     place-items: center;
-    /* margin-inline:1.5rem; */
     padding-block:5rem;
     background-color:var(--second-color)
+}
+.container h2{
+    margin-top: 0;
 }
 .card-container{
     display: grid;

@@ -11,7 +11,7 @@
     }
     nav ul.navigation{
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         align-items: flex-end;
         background-color: white;
     }
@@ -27,8 +27,7 @@
         font-weight:bold;
         color: white;
         background-color: var(--third-color);
-        border-radius: 6px;
-      
+        border-radius: 6px;  
     }
     .hero-section img{
         width: 1150px;
@@ -40,6 +39,9 @@
     background-color:#0c57635c; 
     height:20px;   
 
+    }
+    a.button{
+        font-size: 20px;
     }
     .hero-text{  
        color: white;
@@ -53,6 +55,10 @@
         margin:10px 10px 10px 0;
         font-size: 25px;
         font-weight: 500;
+    }
+    .container h2{
+        font-size: 30px;
+
     }
     .card-container{
         grid-template-columns: repeat(2, 1fr);
