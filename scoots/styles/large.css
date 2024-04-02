@@ -5,20 +5,19 @@
     a#menu{
         display: none;
     }
-    .navigation{
+    nav ul.navigation{
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         background-color: white;
        
     }
     .navigation a{
         display: flex;
         color:var(--primary-color);
-        justify-content: space-between;
-        width:40%;
+        padding:  8px 10px 8px 10px;
+        width:75%;
         text-decoration: none;
         color:var(--fourth-color);
-        
     }
     .navigation li a:hover{
         font-weight:bold;
@@ -35,10 +34,10 @@
        flex-direction: column;
     }
     .hero-text{  
-        padding:30px;
+        color: white;
     }
     .hero-text p {
-        padding: 20px 0 20px;
+        /* padding: 20px 0 20px; */
         font-size: 20px;
         font-weight: 500;
     } 

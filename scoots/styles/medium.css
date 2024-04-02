@@ -5,38 +5,43 @@
     a#menu{
         display: none;
     }
-    .navigation{
+    nav{
+        max-width: 10em;
+    }
+    nav ul.navigation{
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         background-color: white;
     }
     .navigation a{
         display: flex;
         color:var(--primary-color);
-        padding: 3em;
+        padding: 8px 10px 8px 10px;
+        width:75%;
+        text-decoration: none;
+        color:var(--fourth-color);
     }
     .navigation a:hover, .navigation a:active{
         font-weight:bold;
-        background-color: white;
-        border-bottom: 3px solid var(--second-color);
-        padding-bottom: 5px;
+        color: white;
+        background-color: var(--third-color);
+        border-radius: 6px;
+      
     }
     .hero-section img{
         width: 1150px;
         height: auto;
     }
     div .hero-text{
-        background-color: rgba(255, 255, 255, 0.574);
-        position: absolute;
-        margin:10px;
-        border-radius: 5px;
+      display: flex;
+    flex-direction: column;
         
     }
     .hero-text{  
-        padding:30px;
+       color: white;
     }
     .hero-text p {
-        padding: 20px 0 20px;
+        /* padding: 20px 0 20px; */
         font-size: 20px;
         font-weight: 500;
     }

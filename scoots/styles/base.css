@@ -27,6 +27,7 @@ body{
     order: 1;
     width: 8em;
     height: auto;
+    padding-top:10px;
     margin-left: 10px;
 }
 nav { 
@@ -41,6 +42,7 @@ nav {
     top:3rem;
     right:1rem;
     color: var(--fourth-color);
+    text-decoration: none;
 }
 #menu::before{
     content:"☰";
@@ -52,13 +54,14 @@ nav {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--primary-color); 
+    background-color: var(--fourth-color); 
     color:white; 
 }
 .navigation li{
     list-style: none;
 }
 .navigation a{
+    text-decoration: none;
     display: none;
     padding: 10px;
     text-align:center;
@@ -66,7 +69,7 @@ nav {
 }
 .navigation a:hover, .navigation a:active{
     background-color:var(--second-color);
-    color:var(--primary-color);
+    color:var(--fourth-color);
 }
 .open a{
     display: block;
@@ -83,18 +86,19 @@ nav {
     height: auto;
 }
 div .hero-text{
-    background-color: rgba(255, 255, 255, 0.574);
     position: absolute;
-    border-radius:5px;
-    
+    display: flex; 
+    flex-direction: column;
+    justify-content:flex-start;
 }
 .hero-text{  
-    padding:10px;
+    color:white;
 }
-.hero-text p {
-    padding: 20px 0 20px;
-    font-size: 16px;
-    font-weight: 500;
+
+.hero-text h1 {
+    font-size: 20px;
+    text-align: left;
+    /* font-weight: 500; */
 }
 .button:hover{
     background-color:var(--primary-color);
@@ -102,54 +106,3 @@ div .hero-text{
     font-weight: bold;
 }
 
-.more-title h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-    background-color: var(--second-color);
-    font-size:30px;
-}
-.more{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height:35em;
-    background-color: var(--second-color);
-    border-bottom:1px solid white;
-}
-img.icons {
-    display: flex; 
-    width: 6em;
-    height: auto;
-    padding: 20px;
-}
-section.more h3{
-    text-align: center;
-    color:var(--primary-color);
-}
-img.icons:hover{
-    width:9em;
-    height: auto;
-}
-.mission {
-    display:flex;
-    flex-direction: column;
-    padding: 30px;
-    border:1px solid var(--second-color);
-}
-.mission img{
-    width: 30em;
-    height:auto;
-    justify-content: center;
-    padding: 20px;
-    width: 333px;
-    height: auto;
-}
-.statement h2, .statement p{
-    padding: 20px;
-    flex-wrap: wrap;
-   
-}
