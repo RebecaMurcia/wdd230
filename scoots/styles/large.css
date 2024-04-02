@@ -8,6 +8,7 @@
     nav ul.navigation{
         display: flex;
         flex-direction: row-reverse;
+        align-items: flex-end;
         background-color: white;
        
     }
@@ -29,17 +30,22 @@
         width: 1450px;
         height: 690px;
     }
-    div .hero-text{
+    div.hero-text{
        display: flex;
        flex-direction: column;
-       font-size: large;
+       background-color:#0c576300;  
+       height: 20px; 
     }
     .hero-text{  
         color: white;
     }
+    .hero-text h1{
+        font-size: 46px;
+    }
     .hero-text p {
-        /* padding: 20px 0 20px; */
-        font-size: 20px;
+        background-color:#0c576300; 
+        padding: 20px 0 20px;
+        font-size: 30px;
         font-weight: 500;
     } 
 }

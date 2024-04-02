@@ -1,6 +1,7 @@
 @media screen and (min-width:668px){
     header{
         display: flex;
+        align-items: stretch;
     }
     a#menu{
         display: none;
@@ -11,6 +12,7 @@
     nav ul.navigation{
         display: flex;
         flex-direction: row-reverse;
+        align-items: flex-end;
         background-color: white;
     }
     .navigation a{
@@ -32,16 +34,24 @@
         width: 1150px;
         height: auto;
     }
-    div .hero-text{
-      display: flex;
-    flex-direction: column;        
+    div.hero-text{
+    display: flex;
+    flex-direction: column; 
+    background-color:#0c57635c; 
+    height:20px;   
+
     }
     .hero-text{  
        color: white;
     }
+    .hero-text h1{
+        font-size:36px;
+        margin:0;
+    }
     .hero-text p {
-        /* padding: 20px 0 20px; */
-        font-size: 20px;
+        background-color:#0c576381; 
+        margin:10px 10px 10px 0;
+        font-size: 25px;
         font-weight: 500;
     }
 }

@@ -85,11 +85,14 @@ nav {
     width: 400px;
     height: auto;
 }
-div .hero-text{
+div.hero-text{
+    width:70%;
     position: absolute;
-    display: flex; 
-    flex-direction: column;
-    justify-content:flex-start;
+    background-color:#0c586370;
+    padding:10px;
+    border-radius:6px;
+    margin: 70px 70px 0 0;
+   
 }
 .hero-text{  
     color:white;
@@ -104,8 +107,5 @@ div .hero-text{
     background-color:var(--primary-color);
     color:white;
     font-weight: bold;
-}
-section.vehicles{
-    background-color: var(--second-color);
 }
 
