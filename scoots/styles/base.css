@@ -105,4 +105,7 @@ div .hero-text{
     color:white;
     font-weight: bold;
 }
+section.vehicles{
+    background-color: var(--second-color);
+}
 
