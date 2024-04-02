@@ -10,7 +10,7 @@ body{
     padding: 0;
     text-decoration: none;
     list-style: none;
-    font-family: 'Leage+Spartan', sans-serif;
+    font-family: "League Spartan", sans-serif;
 }
 /* .button{
     margin:10px;
@@ -54,7 +54,7 @@ nav {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--fourth-color); 
+    background-color: var(--third-color); 
     color:white; 
 }
 .navigation li{
@@ -68,8 +68,7 @@ nav {
     color: var(--second-color);
 }
 .navigation a:hover, .navigation a:active{
-   background-color: var(--second-color);
-   color: var(--fourth-color);
+   background-color:#0c586370;
    border-radius: 6px;
    font-weight: bold;
 }
@@ -98,15 +97,22 @@ div.hero-text{
 }
 .hero-text{  
     color:white;
+    
 }
 
 .hero-text h1 {
+    text-shadow:2px 2px #0c57638b; 
     font-size: 20px;
     text-align: left;
 }
 a.button{
+    width:fit-content;
+    padding:10px;
     color:white;
     text-decoration: none;
+    background-color: #35BCD4;
+    box-shadow: 0 0 20px #0b2d3266;
+    border-radius: 6px;
 }
 a.button:hover{
     color:var(--primary-color);
@@ -213,4 +219,23 @@ a.button:hover{
     50%{
         overflow: hidden;
     }
+}
+div.container-1{
+    background-color:#0b2d32bc;
+    background-image: url("../images/background-small.webp");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding:10px 10px 30px 20px;
+    color: white;
+}
+/* .desc-vehicles{
+    max-width: 960px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+} */
+.container-1 h2{
+    text-shadow:2px 2px #0c5763a9; 
 }

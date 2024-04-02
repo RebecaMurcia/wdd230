@@ -36,7 +36,7 @@
     div.hero-text{
     display: flex;
     flex-direction: column; 
-    background-color:#0c57635c; 
+    background-color:#0c576300; 
     height:20px;   
 
     }
@@ -47,11 +47,12 @@
        color: white;
     }
     .hero-text h1{
+        text-shadow:2px 2px #0c57638b; 
         font-size:36px;
         margin:0;
     }
     .hero-text p {
-        background-color:#0c576381; 
+        text-shadow:2px 2px #0c57638b; 
         margin:10px 10px 10px 0;
         font-size: 25px;
         font-weight: 500;
@@ -63,5 +64,21 @@
     .card-container{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 1.5rem;
+    }
+    .container-1 h2{
+        font-size: 30px;
+        margin-top: 0;
+        margin-left: 11rem;
+        text-align: left;
+    }
+    .desc-vehicles{
+        font-size: 16px;
+    }
+    div.container-1{
+        background-image: url("../images/background.webp");
+        padding: 30px 30px 80px 40px;
+    }
+    .container-1 h2{
+       margin: 0;
     }
 }
