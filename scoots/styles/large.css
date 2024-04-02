@@ -17,24 +17,22 @@
         justify-content: space-between;
         width:40%;
         text-decoration: none;
+        color:var(--fourth-color);
         
     }
     .navigation li a:hover{
         font-weight:bold;
-        background-color: white;
-        border-bottom: 3px solid var(--second-color);
-        padding-bottom: 5px;
+        color:white;
+        background-color: var(--third-color);
+        border-radius: 6px;
     }
     .hero-section img{
         width: 1450px;
         height: 690px;
     }
     div .hero-text{
-        background-color: rgba(255, 255, 255, 0.574);
-        position: absolute;
-        margin:10px;
-        border-radius: 5px;
-        
+       display: flex;
+       flex-direction: column;
     }
     .hero-text{  
         padding:30px;

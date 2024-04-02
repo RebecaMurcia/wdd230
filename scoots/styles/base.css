@@ -3,7 +3,7 @@
     --primary-color:#0B2D32;
     --second-color:#EBEBEB;
     --third-color:#35BCD4;
-    --fourth-color:#D7E17A;
+    --fourth-color:#2a97aa;
 }    
 body{
     margin: 0;
@@ -12,7 +12,7 @@ body{
     list-style: none;
     font-family: 'Leage+Spartan', sans-serif;
 }
-.button{
+/* .button{
     margin:10px;
     padding:10px;
     background-color: white;
@@ -21,7 +21,7 @@ body{
     font-size:16px;
     border-radius: 5px;
     border:none;
-}
+} */
 
 .logo img{ 
     order: 1;
@@ -40,7 +40,7 @@ nav {
     position:absolute;
     top:3rem;
     right:1rem;
-    color: var(--primary-color);
+    color: var(--fourth-color);
 }
 #menu::before{
     content:"☰";
@@ -80,7 +80,7 @@ nav {
 }
 .hero-section img{
     width: 400px;
-    height: 250px;
+    height: auto;
 }
 div .hero-text{
     background-color: rgba(255, 255, 255, 0.574);

@@ -1,0 +1,43 @@
+@media screen and (min-width:668px){
+    header{
+        display: flex;
+    }
+    a#menu{
+        display: none;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+    }
+    .navigation a{
+        display: flex;
+        color:var(--primary-color);
+        padding: 3em;
+    }
+    .navigation a:hover, .navigation a:active{
+        font-weight:bold;
+        background-color: white;
+        border-bottom: 3px solid var(--second-color);
+        padding-bottom: 5px;
+    }
+    .hero-section img{
+        width: 1150px;
+        height: auto;
+    }
+    div .hero-text{
+        background-color: rgba(255, 255, 255, 0.574);
+        position: absolute;
+        margin:10px;
+        border-radius: 5px;
+        
+    }
+    .hero-text{  
+        padding:30px;
+    }
+    .hero-text p {
+        padding: 20px 0 20px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
