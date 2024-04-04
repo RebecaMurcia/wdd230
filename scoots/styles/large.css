@@ -88,7 +88,21 @@
         padding-left: 1rem;
         padding-right: 1rem;
         color: white;
-        font-size: 20px;
-    }    
+        font-size: 25px;
+    }
+  .weather{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+  h2.weather-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px;
+  }
+  .weather-card{
+    width:30%;
+  }  
 
 }
