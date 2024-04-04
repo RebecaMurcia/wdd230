@@ -17,10 +17,9 @@
        
     }
     .navigation a{
+        font-size: 20px;
         display: flex;
-        /* padding:  8px 10px 8px 10px; */
         margin:5px;
-        /* width:75%; */
         text-decoration: none;
         color:var(--fourth-color);
     }

@@ -169,9 +169,14 @@ a.button:hover{
 .card-button{
     text-decoration: none;
     color:var(--third-color);
+    font-size: 20px;
 }
 .card-button:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    border: 1px solid var(--third-color);
+    padding:8px;
+    border-radius: 6px;
+    
 }
 .card-article:hover .card-data{
     animation:show-data 1s forwards;
@@ -228,14 +233,7 @@ div.container-1{
     padding:10px 10px 30px 20px;
     color: white;
 }
-/* .desc-vehicles{
-    max-width: 960px;
-    margin-left:auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    color: white;
-} */
+
 .container-1 h2{
     text-shadow:2px 2px #0c5763a9; 
 }
