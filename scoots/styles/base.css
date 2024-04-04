@@ -67,7 +67,7 @@ nav {
     text-align:center;
     color: var(--second-color);
 }
-.navigation a:hover, .navigation a:active{
+.navigation a:hover {
    background-color:#0c586370;
    border-radius: 6px;
    font-weight: bold;

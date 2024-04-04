@@ -1,4 +1,8 @@
 @media screen and (min-width:992px){
+    .active{
+        border:1px solid var(--third-color);  
+        border-radius: 6px;  
+     }
     header{
         display: flex;
     }
@@ -14,17 +18,18 @@
     }
     .navigation a{
         display: flex;
-        color:var(--primary-color);
-        padding:  8px 10px 8px 10px;
-        width:75%;
+        /* padding:  8px 10px 8px 10px; */
+        margin:5px;
+        /* width:75%; */
         text-decoration: none;
         color:var(--fourth-color);
     }
-    .navigation li a:hover{
+    .navigation a:hover{
         font-weight:bold;
         color:white;
         background-color: var(--third-color);
         border-radius: 6px;
+        
     }
     .hero-section img{
         width: 1450px;
