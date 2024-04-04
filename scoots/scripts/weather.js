@@ -25,7 +25,7 @@ async function apiFetch() {
         if (response.ok) {
             const data = await response.json();
             console.log(data);
-        displayResults(data); 
+        // displayResults(data); 
         } else {
             throw Error(await response.text());
         }
@@ -94,5 +94,5 @@ apiFetch();
 //     forecastDay3.innerHTML = `${daysOfWeek[(todayIndex + 3) % 7]}`;  
 // }
 
-forecastFetch();
+// forecastFetch();
 // forecastDays();
