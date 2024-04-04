@@ -107,20 +107,50 @@
     </div>
     <div class="weather">
         <h2>There's No Limits When you Plan Ahead!</h2>
-        <div class="localw-card">
+        <div class="weather-card">
             <h4>Current Weather in Playa del Carmen</h4>  
             <img id="weather-icon" src="" alt="">
             <p class="temp"><span id="temperature"></span> °F</p>
             <p><span id="weather-description"></span></p>
+            <div class="details">
+                <div class="column">
+                    <img src="images/humidity.png" alt="humidity icon">
+                    <div>
+                        <p class="humidity" id="today-humd"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="images/wind.png" alt="wind icon">
+                    <div>
+                        <p class="wind" id="today-wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="nextday-card">
+        <div class="weather-card">
             <h4><span id ="day1"></span> Forecast</h4>
-                <div id="forecast">
-                    <img src=""  id="icon1" class="weather-icon" alt="">
-                    <!-- <p id="day1">Tuesday</p> -->
-                    <p id="temp-forecast1">40°F</p> 
-                </div> 
+            <img id="icon1" src="" alt="">
+            <p id="temp-forecast1"></p> 
+            <p><span id="day1-desc"></span></p>
+            <div class="details">
+                <div class="column">
+                    <img src="images/humidity.png" alt="humidity icon">
+                    <div>
+                        <p class="humidity" id="day1-humd"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="images/wind.png" alt="wind icon">
+                    <div>
+                        <p class="wind" id="day1-wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

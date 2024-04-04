@@ -5,6 +5,7 @@ const captionDesc = document.querySelector('#weather-description');
 const forecastTemp1 = document.querySelector('#temp-forecast1');
 const weatherIcon1 = document.querySelector('#icon1');
 const forecastDay1 = document.querySelector('#day1');
+const forecastDesc = document.querySelector('#day1-desc');
 
 const url ='https://api.openweathermap.org/data/2.5/weather?lat=20.62847&lon=-87.07355&appid=f39cf9a5e290c08455b011260c79a5de&units=imperial';
 const furl='https://api.openweathermap.org/data/2.5/forecast?lat=20.62847&lon=-87.07355&appid=f39cf9a5e290c08455b011260c79a5de&units=imperial';
@@ -52,10 +53,11 @@ async function forecastFetch() {
 }
 
 function displayForecast(data) {
-    forecastTemp1.innerHTML = `${data.list[6].main.temp.toFixed(1)}&deg;F`;
+    forecastTemp1.innerHTML = `${data.list[6].main.temp.toFixed()}&deg;F`;
     const iconsrc = `https://openweathermap.org/img/wn/${data.list[6].weather[0].icon}@2x.png`;
     weatherIcon1.setAttribute("src",iconsrc);
     weatherIcon1.setAttribute("alt", "weather icon"); 
+    forecastDesc.textContent =`${data.list[6].weather[0].description}`;
     
 }
 
