@@ -48,6 +48,50 @@
             </div>
         </div>
     </main>
+
+    <section class="reserve-grid">
+        <div class="reserve-info">
+            <h2>Rental Services and Agreements</h2>
+            <p>Please make sure to read the agreement before filling the form below.</p>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>          
+            </ul>
+        </div>
+
+        <div class="reserve-form">
+            <form method="get" action="thankyou.html" class="mform">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label for="fname">First Name* <input id="fname" type="text" name="fname" required></label>
+                    <label for="lname">Last Name* <input id="lname" type="text" name="lname" required></label>
+                    <label for="position">Title/position*<input id="position" type="text" name="position" required></label>
+                    <label for="email">Email*<input id="email" type="email" name="email" placeholder="someone@email.com" required></label>
+                    <label for="phone">Phone* <input id="phone" type="tel" name="phone" required></label>
+                    <label for="businessn">Business/Organization's Name*<input id="businessn" type="text" name="businessn" required></label>
+                    <label for="description">Business/Organization's Description<input id="description" type="text" name="description" placeholder="Please, use a maximum of two sentences."></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                    <label><input type="radio" name="membership" value="non profit">NP Memberhsip</label>                       
+                </fieldset>
+                <input class="button" type="submit" value="Join Membership">
+                <input type="hidden" id="lastSubmitted" name="lastSubmitted">
+            </form>    
+        </div>
+    </section>
    
     
     <footer>
