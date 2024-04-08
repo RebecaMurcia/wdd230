@@ -105,8 +105,9 @@
   .weather-card{
     width:30%;
   } 
-  /* .hero-text1 h1{
-    color: var(--primary-color);
-  }  */
+  .reserve-grid{
+    display: grid;
+    grid-template-columns: 650px 800px;
+}
 
 }

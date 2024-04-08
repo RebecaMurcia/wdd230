@@ -342,3 +342,16 @@ div.weather-data > p{
     margin:0;
     text-align: left;
 }
+.reserve-grid{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.reserve-form{
+    display: grid;
+    grid-template-columns: 400px;
+    margin-left: 10px;
+    padding: 20px;
+     
+}
