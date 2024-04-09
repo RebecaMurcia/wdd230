@@ -1,4 +1,4 @@
-@media screen and (min-width:992px){
+@media screen and (min-width:1300px){
     .active{
         border:1px solid var(--third-color);  
         border-radius: 6px;  

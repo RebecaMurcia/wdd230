@@ -1,4 +1,4 @@
-@media screen and (min-width:668px){
+@media screen and (min-width:600px){
     .active{
         border:1px solid var(--third-color);  
         border-radius: 6px;  
@@ -98,4 +98,10 @@
       .weather-card{
         width:50%;
       } 
+      .reserve-form{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        padding: 20px;  
+    }
 }
