@@ -107,7 +107,11 @@
   } 
   .reserve-grid{
     display: grid;
-    grid-template-columns: 650px 800px;
+    grid-template-columns: 670px 800px;
 }
+/* .reserve-info{
+    font-size: 20px;
+    margin-left: 40px;
+} */
 
 }

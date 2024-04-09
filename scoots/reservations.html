@@ -68,33 +68,89 @@
         </div>
 
         <div class="reserve-form">
-            <form method="get" action="thankyou.html" class="mform">
+            <form method="get" action="thankyou.html" class="rform">
                 <fieldset>
-                    <legend>Applicant Information</legend>
+                    <legend>Reservation Form</legend>
                     <label for="fname">First Name* <input id="fname" type="text" name="fname" required></label>
                     <label for="lname">Last Name* <input id="lname" type="text" name="lname" required></label>
                     <label for="email">Email*<input id="email" type="email" name="email" placeholder="someone@email.com" required></label>
                     <label for="phone">Phone* <input id="phone" type="tel" name="phone" required></label>
-                    <legend>Rental Type</legend>
-                    <label><input type="radio" name="membership" value="gold">Gold Membership</label>
-                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
-                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
-                    <label><input type="radio" name="membership" value="non profit">NP Memberhsip</label> 
-                    <label for="description">Comments/Special accomodations<input id="description" type="text" name="description" placeholder="Please, use a maximum of two sentences."></label>
-                </fieldset>
+                    <label for="coutry">Country* <input id="country" type="text" name="country" required></label>
+                    <label for="cruise">Cruise Line Number (optional)<input id="cruise" type="text" name="cruise"></label>
 
-                <!-- <fieldset>
-                    <legend>Membership Level</legend>
-                    <label><input type="radio" name="membership" value="gold">Gold Membership</label>
-                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
-                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
-                    <label><input type="radio" name="membership" value="non profit">NP Memberhsip</label>                       
-                </fieldset> -->
-                <input class="button" type="submit" value="Join Membership">
+                    <label for="vehicle">Choose a Vehicle</label>
+                    <select name="vehicle" id="vehicle">
+                        <option value="Select one option">Select one option</option>
+                        <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+                        <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+                        <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+                        <option value="4 door Jeep Wrangler"> 4 door Jeep Wrangler</option>
+                        <option value="2 door Jeep Wrangler"> 2 door Jeep Wrangler</option>
+                    </select>   
+
+                    <hr class="line-form">
+                    <legend>Pick-up</legend>
+                    <label for="pickdate">Pick-up Date</label>
+                    <input type="date" id="pickdate" name="pickdate">
+                    <label for="vehicle">Pick-up Time</label>
+                    <select name="time" id="time">
+                        <option value="Select one option">Select one option</option>
+                        <option value="06:00 AM">06:00 AM</option>
+                        <option value="07:00 AM">07:00 AM</option>
+                        <option value="08:00 AM">08:00 AM</option>
+                        <option value="09:00 AM">09:00 AM</option>
+                        <option value="10:00 AM">10:00 AM</option>
+                        <option value="11:00 AM">11:00 AM</option>
+                        <option value="12:00 PM">12:00 PM</option>
+                        <option value="01:00 PM">01:00 PM</option>
+                        <option value="02:00 PM">02:00 PM</option>
+                        <option value="03:00 PM">03:00 PM</option>
+                        <option value="04:00 PM">04:00 PM</option>
+                        <option value="05:00 PM">05:00 PM</option>
+                        <option value="06:00 PM">06:00 PM</option>
+                        <option value="07:00 PM">07:00 PM</option>
+                        <option value="08:00 PM">08:00 PM</option>             
+                    </select>  
+                    <div>Pick-up Location</div>
+                    <label><input type="radio" name="Carmen" value="Playa del Carmen">Playa del Carmen</label>
+                    <label><input type="radio" name="Maya" value="Terminal Puerta Maya">Terminal Puerta Maya</label>
+
+                    <hr class="line-form">
+                    <legend>Drop-off</legend>
+                    <label for="dropdate">Drop-off Date</label>
+                    <input type="date" id="dropdate" name="dropdate">
+                    <label for="vehicle">Drop-off Time</label>
+                    <select name="time" id="time">
+                        <option value="Select one option">Select one option</option>
+                        <option value="06:00 AM">06:00 AM</option>
+                        <option value="07:00 AM">07:00 AM</option>
+                        <option value="08:00 AM">08:00 AM</option>
+                        <option value="09:00 AM">09:00 AM</option>
+                        <option value="10:00 AM">10:00 AM</option>
+                        <option value="11:00 AM">11:00 AM</option>
+                        <option value="12:00 PM">12:00 PM</option>
+                        <option value="01:00 PM">01:00 PM</option>
+                        <option value="02:00 PM">02:00 PM</option>
+                        <option value="03:00 PM">03:00 PM</option>
+                        <option value="04:00 PM">04:00 PM</option>
+                        <option value="05:00 PM">05:00 PM</option>
+                        <option value="06:00 PM">06:00 PM</option>
+                        <option value="07:00 PM">07:00 PM</option>
+                        <option value="08:00 PM">08:00 PM</option>             
+                    </select>  
+                    <div>Drop-off Location</div> 
+                    <label><input type="radio" name="Carmen" value="Playa del Carmen">Playa del Carmen</label>
+                    <label><input type="radio" name="Maya" value="Terminal Puerta Maya">Terminal Puerta Maya</label>         
+                           
+                    <hr class="line-form">
+                    <label for="description">Special Accomodations (optional)<input id="description" type="text" name="description"></label>
+                </fieldset>
+                <input class="button" type="submit" value="Reserve">
                 <input type="hidden" id="lastSubmitted" name="lastSubmitted">
             </form>    
         </div>
     </section>
+   
    
     
     <footer>
