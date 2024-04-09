@@ -107,11 +107,33 @@
   } 
   .reserve-grid{
     display: grid;
-    grid-template-columns: 670px 800px;
+    grid-template-columns: 550px 800px;
+    grid-gap:70px;
 }
-/* .reserve-info{
+.reserve-info{
     font-size: 20px;
-    margin-left: 40px;
-} */
+    margin-left:20px;
+}
+
+fieldset{
+    width: 600px;
+}
+div.timing, div.small{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding: 0;
+    margin:0;
+  }
+ .rform #vehicle{
+    width: 15rem;
+}
+div.space{
+    padding: 0;
+    margin-left:40px;
+}
+.space #description{
+    width:86%;
+}
 
 }

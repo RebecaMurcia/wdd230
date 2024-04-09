@@ -105,7 +105,7 @@ div.hero-text{
     font-size: 20px;
     text-align: left;
 }
-a.button{
+a.button {
     width:fit-content;
     padding:10px;
     color:white;
@@ -347,6 +347,12 @@ div.weather-data > p{
     flex-direction: column;
     margin-left: 20px;
 }
+.reserve-info{
+    padding:20px;
+}
+.reserve-info ul{
+    margin-left:-15px;
+}
 .reserve-form{
     display: grid;
     grid-template-columns: 300px;
@@ -403,10 +409,23 @@ div.weather-data > p{
     width: 90%;
     border:0;
     border-bottom: 1px solid var(--third-color);
-    padding:10px;
+    padding:8px;
 }
 #description{
     height: 70px;
+}
+.rform input[type="submit"]{
+    width:96%;
+    margin: -1rem 2% 2rem 2%;
+    padding:10px;
+    color:white;
+    background-color: #35BCD4;
+    border: 1px solid var(--third-color);
+    box-shadow: 0 0 10px #126e96;
+    border-radius: 6px;   
+}
+a.inline-link{
+    color: var(--fourth-color);
 }
 
 
