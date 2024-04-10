@@ -443,5 +443,7 @@ div.thanks{
 section.contact-info{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-left:20px;  
 }
 
