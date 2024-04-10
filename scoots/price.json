@@ -1,0 +1,56 @@
+{
+    "price": [
+        {
+            "type":"Honda Metro Scooter",
+            "capacity":"1",
+            "half-rsv":"$20",
+            "full-rsv":"$30",
+            "half-wlkn": "$25",
+            "full-wlkn":"$35"
+        },
+        {
+            "type":"Honda Dio Scooter",
+            "capacity":"2",
+            "half-rsv":"$30",
+            "full-rsv":"$40",
+            "half-wlkn": "$35",
+            "full-wlkn":"$45"
+
+        },
+        {
+            "type":"Honda PCX150 Scooter",
+            "capacity":"2",
+            "half-rsv":"$40",
+            "full-rsv":"$50",
+            "half-wlkn": "$45",
+            "full-wlkn":"$55"
+
+        },
+        {
+            "type":"Honda Pioneer ATV",
+            "capacity":"2",
+            "half-rsv":"$50",
+            "full-rsv":"$70",
+            "half-wlkn": "$60",
+            "full-wlkn":"$80"
+
+        },
+        {
+            "type":"Jeep Wrangler - 4 door with a/c",
+            "capacity":"5",
+            "half-rsv":"$70",
+            "full-rsv":"$60",
+            "half-wlkn": "$80",
+            "full-wlkn":"$125"
+
+        },
+        {
+            "type":"Jeep Wrangler - 2 door",
+            "capacity":"4",
+            "half-rsv":"$60",
+            "full-rsv":"$85",
+            "half-wlkn": "$70",
+            "full-wlkn":"$90"
+        }
+    ]
+}
