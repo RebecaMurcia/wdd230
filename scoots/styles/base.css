@@ -364,7 +364,7 @@ div.weather-data > p{
     border:1px solid var(--third-color);
     border-radius: 6px;
     padding:.5rem 2%;
-    width:30px;
+  
 }
 .rform legend{
     color: var(--fourth-color);

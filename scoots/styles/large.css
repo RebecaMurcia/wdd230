@@ -144,5 +144,10 @@ section.contact-info{
     justify-content:space-evenly;
     font-size:18px;
 }
+#form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 }
