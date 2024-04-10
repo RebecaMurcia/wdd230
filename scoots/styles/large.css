@@ -135,5 +135,7 @@ div.space{
 .space #description{
     width:86%;
 }
-
+.rform input[type="submit"]{
+    width:40%;
+}
 }
