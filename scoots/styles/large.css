@@ -138,4 +138,11 @@ div.space{
 .rform input[type="submit"]{
     width:40%;
 }
+section.contact-info{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    font-size:18px;
+}
+
 }

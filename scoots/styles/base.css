@@ -440,5 +440,8 @@ div.thanks{
     padding: 40px;
     margin: 40px;
 }
-
+section.contact-info{
+    display: flex;
+    flex-direction: column;
+}
 
