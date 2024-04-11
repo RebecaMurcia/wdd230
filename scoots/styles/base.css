@@ -447,4 +447,12 @@ section.contact-info{
     justify-content: center;
     padding-left:20px;  
 }
+table {
+    border: 2px solid rgb(140 140 140);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+  }
 
