@@ -86,7 +86,7 @@ div.hero-text{
    
 }
 .hero-text{  
-    color:white;
+    color:var(--primary-color);
     
 }
 
