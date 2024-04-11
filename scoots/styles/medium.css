@@ -99,9 +99,55 @@
         width:50%;
       } 
       .reserve-form{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-left: 10px;
-        padding: 20px;  
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    .reserve-info{
+        font-size: 20px;
+        margin-left:20px;
+    }
+    
+    .rform fieldset{
+        width: 600px;
+    }
+    div.timing, div.small{
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        padding: 0;
+        margin:0;
+      }
+     .rform #vehicle{
+        width: 15rem;
+    }
+    div.space{
+        padding: 0;
+        margin-left:40px;
+    }
+    .space #description{
+        width:86%;
+    }
+    .rform input[type="submit"]{
+        width:40%;
+    }
+    section.contact-info{
+        display: flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+        font-size:18px;
+    }
+    #form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    section.data-table{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    table{
+        width:50%;
     }
 }

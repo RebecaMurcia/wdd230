@@ -450,7 +450,7 @@ section.contact-info{
     background-color: var(--second-color);
 }
 table{
-    width:60%;
+    width:15%;
     border-collapse: collapse;
     margin: 20px;
     padding: 5px 10px;
@@ -471,5 +471,11 @@ thead{
   #vehicle-details tr:hover{
     background-color: #2a97aa;
   }
+  .container-info{
+   display: flex;
+   flex-direction: column;
+   margin: 30px;
+  }
+ 
   
 
