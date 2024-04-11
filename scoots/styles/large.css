@@ -25,7 +25,7 @@
     }
     .navigation a:hover{
         font-weight:bold;
-        color:white;
+        color:var(--first-color);
         background-color: var(--third-color);
         border-radius: 6px;
         
@@ -44,7 +44,7 @@
         font-size: 20px;
     }
     .hero-text{  
-        color: white;
+        color:var(--first-color);
     }
     .hero-text h1{
         font-size: 70px;
