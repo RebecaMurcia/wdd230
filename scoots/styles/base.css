@@ -12,16 +12,6 @@ body{
     list-style: none;
     font-family: "League Spartan", sans-serif;
 }
-/* .button{
-    margin:10px;
-    padding:10px;
-    background-color: white;
-    box-shadow: 0 0 20px rgb(187, 180, 177);
-    color: var(--primary-color);
-    font-size:16px;
-    border-radius: 5px;
-    border:none;
-} */
 
 .logo img{ 
     order: 1;
