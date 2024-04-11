@@ -25,10 +25,10 @@ const dataURL = "price.json";
         row.innerHTML = `
              <td>${type.type}</td>
              <td>${type.capacity}</td>
-             <td>$${type.halfrsv}</td>
-             <td>$${type.fullrsv}</td>
-             <td>$${type.halfwlkn}</td>
-             <td>$${type.fullwlkn}</td>      
+             <td>${type.halfrsv}</td>
+             <td>${type.fullrsv}</td>
+             <td>${type.halfwlkn}</td>
+             <td>${type.fullwlkn}</td>      
         
         `;
         priceTable.appendChild(row);

@@ -445,14 +445,31 @@ section.contact-info{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left:20px;  
+    padding-left:20px;
+    padding-bottom: 40px;  
+    background-color: var(--second-color);
 }
-table {
-    border: 2px solid rgb(140 140 140);
+table{
+    width:60%;
+    border-collapse: collapse;
+    margin: 20px;
+    padding: 5px 10px;
+}
+thead{
+    background-color: var(--primary-color);
+    color:white;   
   }
   
   th,
   td {
-    border: 1px solid rgb(160 160 160);
+    padding: 8px;
+    border: 1px solid var(--second-color);
   }
+  #vehicle-details tr:nth-child(even){
+    background-color: #35bcd44b;
+  }
+  #vehicle-details tr:hover{
+    background-color: #2a97aa;
+  }
+  
 
