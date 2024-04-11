@@ -207,7 +207,7 @@ a.button:hover{
 }
 @keyframes show-overflow{
     0%{
-        overflow: initital;
+        overflow:visible;
         pointer-events: none;
     }
     50%{
