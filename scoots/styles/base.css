@@ -86,7 +86,7 @@ div.hero-text{
    
 }
 .hero-text{  
-    color:var(--primary-color);
+    color:white;
     
 }
 
@@ -98,7 +98,7 @@ div.hero-text{
 a.button {
     width:fit-content;
     padding:10px;
-    color:white;
+    color:var(--primary-color);
     text-decoration: none;
     background-color: #35BCD4;
     box-shadow: 0 0 20px #126e96e0;
