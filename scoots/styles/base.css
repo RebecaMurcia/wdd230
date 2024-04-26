@@ -99,6 +99,7 @@ a.button {
     width:fit-content;
     padding:10px;
     color:var(--primary-color);
+    font-weight: bold;
     text-decoration: none;
     background-color: #35BCD4;
     box-shadow: 0 0 20px #126e96e0;
