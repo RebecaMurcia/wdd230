@@ -45,7 +45,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     background-color: var(--third-color); 
-
 }
 .navigation li{
     list-style: none;
